@@ -1,0 +1,63 @@
+# section information
+section:
+  name: Su di me...
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Medico in Formazione
+# your company information
+company:
+  name: Pronto Soccorso - Ospedale San Matteo
+  url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Curioso, quick-learner, cerco giornalmente un modo per unire le mie due grandi passioni: la medicina e la programmazione. Amante delle lingue, curioso su tutto quel che riguarda le nuove tecnologie - blockchain, intelligenza artificiale, data analysis.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/example"
+
+- name: Email
+  icon: "fas fa-envelope"
+  url: "example@gmail.com"
+
+- name: Researchgate
+  icon: "fab fa-researchgate"
+  url: "example@gmail.com"
+  
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "#"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Medicina
+  percentage: 95
+  color: primary-color
+- name: Coding
+  percentage: 85
+  color: primary-color
+- name: Lingue straniere
+  percentage: 75
+  color: primary-color
+  
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+# badges:
+#- type: certification
+#  name: Certified Kubernetes Security Specialist
+#  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"

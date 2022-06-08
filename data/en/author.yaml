@@ -1,0 +1,19 @@
+# some information about you
+name: "Nicola Parisi"
+nickname: "Nicola Parisi"
+image: "images/np_logo.png"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Welcome, I am"
+subtitle: "I merge Medicine, Data, Technology."
+
+# give your contact information. they will be used in the footer
+contactInfo:
+  email: "n"
+
+# a summary of what you do
+summary:
+    - I am a Doctor
+    - I work in the Emergency Department
+    - I love to code
+    - I am a Developer

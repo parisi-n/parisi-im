@@ -1,0 +1,19 @@
+# some information about you
+name: "Nicola Parisi"
+nickname: "Nicola Parisi"
+image: "images/np_logo.png"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Ciao, sono"
+subtitle: "Unisco Medicina, Dati e Tecnologia."
+
+# give your contact information. they will be used in the footer
+contactInfo:
+  email: "n"
+
+# a summary of what you do
+summary:
+- Medico
+- Lavoro nell'Emergenza
+- Programmo cose bellissime
+- Mi piacciono i numeri

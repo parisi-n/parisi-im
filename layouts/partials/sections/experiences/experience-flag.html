@@ -1,0 +1,9 @@
+<div class="col-10 col-lg-2">
+    <div class="experience-entry-heading flag">
+        {{ if .company.flag }}
+        {{ $flag:= resources.Get ( printf "flags_svg/%s.svg" .company.flag ) }}
+        {{ $flag = $flag.RelPermalink}}
+            <img src="{{ $flag }}" title="{{ .company.flag | humanize }}" alt="{{ .company.flag | humanize }}" />
+        {{ end }}
+    </div>
+</div>

@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 6, 2022, 11:23:06 PM
+    Author     : npari
+*/
+:root {
+    --primary-color: #FF432E;
+    --primary-color-dark: #99281c;
+    --text-color: #6b6b6b;
+
+    --text-secondary-color: #6c757d;
+    --background-color: #eaedf0;
+    --secondary-background-color: #212529;
+
+    --secondary-color: #f8f9fa;
+    --text-color-dark: #e4e6eb;
+    --text-secondary-color-dark: #b0b3b8;
+    --background-color-dark: #18191a;
+    --secondary-background-color-dark: #212529;
+    
+    --secondary-color-dark: #212529;
+}
+
+body {
+    color: var(--text-color) !important;
+}
+a { color: var( --primary-color-dark ); transition: 0.3s ease-in-out;  }
+a:hover { color: var( --primary-color ); text-decoration: none; }
+
+h1 { font-weight: 800; color: var( --primary-color ); letter-spacing: 1px; font-size: clamp(40px, 8vw, 45px); margin-bottom: 2rem; }
+h2 { margin-bottom: 2rem; }
+h3 { color: var( --primary-color ) }
+p { font-weight: 400; color: var( --text-color ); font-size: 18px; line-height: 1.7; font-family: "Open Sans", sans-serif; }
+
+/* HOME */
+.navbar-brand img { width: 120px !important; }
+#homePageBackgroundImageDivStyled { background-image: none !important; background-color: var( --secondary-background-color ) !important; }
+.sidebar-holder { top: 3.1rem !important; }
+
+#primary-font { line-height: 2rem; text-align: left; }
+#primary-font .greetings { font-size: clamp(14px,5vw,16px); opacity: 0.6; }
+#primary-font .name { font-size: clamp(40px, 8vw, 80px); color: var(--primary-color) !important; margin-left: -4px  }
+#primary-font .greeting-subtitle { color: inherit; font-size: clamp(40px, 8vw, 30px); opacity: 0.5; }
+#primary-font h1, h2, h3 { color: inherit; }
+#primary-font .typing-carousel { font-size: 23pt; color: #f9fafc !important; margin-top: 1rem; opacity: 0.5; }
+.rounded-circle { border-radius: 20% !important; }
+
+/* POST */
+.toc .nav-link:hover, .toc .nav-link:focus, .toc .nav-link.active { background-color: transparent !important; color: var(--primary-color) !important; font-weight: 900; }
+
+.content .title h1 { font-size: clamp(40px, 8vw, 75px); }
+a.header-anchor { color: var(--primary-color) !important; }
+a.header-anchor:hover { opacity: 0.8; transition: 0.3s }
+.post-content h2 { font-size: clamp(40px, 8vw, 45px); }
+
+/* HOME - ABOUT */
+#about h5 { opacity: 0.4 }
+.circular-progress.primary-color .circular-progress-bar { border-color: var( --primary-color ); }
+.social-link a { color: var( --text-color ) !important }
+.social-link a:hover { color: var( --primary-color ) !important }
+
+/* HOME - SKILLS */
+#primary-skills div { cursor: help }
+.card-body { text-align: left; }
+
+/* HOME - EXPERIENCES */
+.circle { background-color: var( --primary-color ) }
+.timeline .horizontal-line .corner, .timeline .vertical-line::after, .timeline .horizontal-line hr { border-color: var( --primary-color ) }
+.flag img { width: 65px; border-radius: 10%; }
+.flag { text-align: center }
+.position { opacity: 0.5; font-style: italic; font-size: initial; }
+
+/* HOME - FOOTER */
+.footer { background-color: var( --secondary-background-color ) }
