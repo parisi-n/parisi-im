@@ -1,12 +1,4 @@
-[build]
-publish = "publish/"
-
 [context.production.environment]
 HUGO_VERSION = "0.74.3"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
