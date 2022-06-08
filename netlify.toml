@@ -1,5 +1,5 @@
 [build]
-publish = ""
+publish = "publish/"
 
 [context.production.environment]
 HUGO_VERSION = "0.74.3"
