@@ -37,6 +37,8 @@ h3 { color: var( --primary-color ) }
 p { font-weight: 400; color: var( --text-color ); font-size: 18px; line-height: 1.7; font-family: "Open Sans", sans-serif; }
 
 /* HOME */
+@media only screen and (max-width: 576px) { .content { top: -80% } }
+.content { top: -75% }
 .navbar-brand img { width: 120px !important; }
 #homePageBackgroundImageDivStyled { background-image: none !important; background-color: var( --secondary-background-color ) !important; }
 .sidebar-holder { top: 3.1rem !important; }
@@ -70,8 +72,9 @@ a.header-anchor:hover { opacity: 0.8; transition: 0.3s }
 /* HOME - EXPERIENCES */
 .circle { background-color: var( --primary-color ) }
 .timeline .horizontal-line .corner, .timeline .vertical-line::after, .timeline .horizontal-line hr { border-color: var( --primary-color ) }
-.flag img { width: 65px; border-radius: 10%; }
+.flag img { width: 65px; border-radius: 10%; border: 1px solid #6b6b6b22 }
 .flag { text-align: center }
+@media only screen and (max-width: 576px) { .flag { display: none; } }
 .position { opacity: 0.5; font-style: italic; font-size: initial; }
 
 /* HOME - FOOTER */
