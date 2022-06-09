@@ -2,12 +2,12 @@ baseURL: https://parisi.im
 
 languageCode: it-it
 title: "Nicola Parisi"
-subtitle: "we"
 theme: "toha"
 dateFormat : "02 Jan 2006"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+defaultContentLanguage: it
 languages:
   it:
     languageName: Italiano
