@@ -12,14 +12,14 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Emergenza-Urgenza
-  logo: "/images/np_logo.png"
+  logo: "/skills/emergency-room.svg"
   summary: "Possiedo le principali certificazioin per lavorare nell'Emergenza-Urgenza - sia in contesto ospedaliero che extra-ospedaliero: ALS, APHTC, PALS, maxi-emergenze."
   #url: "https://example.io/"
 
-- name: Lingue straniere
-  logo: "/images/np_logo.png"
-  summary: "Madrelingua italiano. Riesco a comunicare nell'ambiente lavorativo in inglese. Possiedo basi di russo - in disuso."
-
-- name: Programming
-  logo: "/images/np_logo.png"
+- name: Coding
+  logo: "/skills/coding.svg"
   summary: "In passato PHP - oggi uso Python come linguaggio principale. Capace di scrivere, testare e mantenere applicativi scalabili su server VPS."
+  
+- name: Lingue straniere
+  logo: "/skills/foreign-language.svg"
+  summary: "Madrelingua italiano. Riesco a comunicare nell'ambiente lavorativo in inglese. Possiedo basi di russo - in disuso."

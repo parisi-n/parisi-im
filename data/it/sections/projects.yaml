@@ -13,27 +13,28 @@ buttons:
 - name: Tutti
   filter: "all"
 - name: Journal in Cloud
-  filter: "professional"
-- name: Android Apps
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+  filter: "inCloud"
+- name: Professional
+  filter: "Professional"
+- name: Apps
+  filter: "apps"
 
 # your projects
 projects:
 - name: Diario Pressorio nel Cloud
-  logo: /images/sections/projects/kubernetes.png
-  role: Owner & Developer
-  timeline: "Feb 2018 - Gen 2022"
-  url: "https://journ.cloud" # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  summary: "La piattaforma permette all'utente l'inserimento di parametri vari (pressione, peso, circonferenza...), sincronizzando il dispositivo con un server centrale rendendo disponibili immediatamente i dati inseriti nel cloud. Il medico può accedere in tempo reali ai dati, analizzarli mediante apposite funzioni statistiche e grafiche preimpostate o - più semplicemente - esportarli in PDF per stamparli."
-  tags: ["inCloud", "cloud"]
+  image: /projects/pression_cloud.svg
+  url: "https://journ.cloud"
+  summary: "Accessibile ovunque, dal paziente e dal medico, offre un diario in cui inserire farmaci, pressioni. Produce statistiche avanzate."
+  tags: ["inCloud"]
 
+- name: Diario del Peso nel Cloud
+  image: /projects/weight_cloud.svg
+  url: "https://journ.cloud"
+  summary: "Accessibile ovunque, dal paziente e dal medico, offre un diario in cui inserire il peso, circonferenze, mood della dieta ed alimenti."
+  tags: ["inCloud"]
+  
 - name: Analytics for Department of Emergency
-  logo: /images/sections/projects/tensorflow.png
-  role: Owner & Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning","academic"]
+  image: /projects/ade.svg
+  url: "https://journ.cloud"
+  summary: "Interfaccia _multi-level_ e _multi-entry_ per la gestione interna e standardizzazione dei dati EMR. Offre statistiche, proiezioni, predizioni."
+  tags: ["Professional"]
