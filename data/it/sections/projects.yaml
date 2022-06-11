@@ -41,5 +41,5 @@ projects:
   image: /projects/ade.svg
   summary: "Interfaccia _multi-level_ e _multi-entry_ per la gestione interna e standardizzazione dei dati EMR. Offre statistiche, proiezioni, predizioni."
   tags: ["Professional"]
-  modalDescription : "Nasce come maschera d'inserimento dati per gli studenti del Pronto Soccorso. Rapida, intuitiva, funzionale, permette una più agile raccolta dei dati all'interno del nostro dipartimento."
+  modalDescription : "Nasce come maschera d'inserimento dati per gli studenti del Pronto Soccorso. Rapida, intuitiva, funzionale, permette una più agile raccolta dei dati all'interno del nostro dipartimento. Basato su Python come _back-end_ - coniuga CSS (W3C) e jQuery lato _front-end_."
   modalImage : [ screenshots/ade_1.png, screenshots/ade_3.jpg, screenshots/ade_4.jpg, screenshots/ade_ee_parser_detail.gif ]
