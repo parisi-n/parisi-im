@@ -26,15 +26,20 @@ projects:
   url: "https://journ.cloud"
   summary: "Accessibile ovunque, dal paziente e dal medico, offre un diario in cui inserire farmaci, pressioni. Produce statistiche avanzate."
   tags: ["inCloud"]
+  modalDescription : "Disponibile sia come Android App - che garantisce al paziente un'interfaccia semplice per l'inserimento e delle statistiche base sull'andamento pressorio - sia come interfaccia web con un report dettagliato esportabile del diario pressorio. La funzione web può essere resa accessibile al medico comodamente dall'app Android mediante creazione di un link temporaneo per l'accesso diretto."
+  modalImage : [ screenshots/pj_1.jpg, screenshots/pj_2.jpg, screenshots/pj_3.png, screenshots/pj_4.png ]
 
 - name: Diario del Peso nel Cloud
   image: /projects/weight_cloud.svg
   url: "https://journ.cloud"
   summary: "Accessibile ovunque, dal paziente e dal medico, offre un diario in cui inserire il peso, circonferenze, mood della dieta ed alimenti."
   tags: ["inCloud"]
+  modalDescription : "Diario del Peso è l'app gemella di Diario Pressorio. Disponibile sia come app Android sia come interfaccia web, su cui sono presenti statistiche avanzate e tutti i dettagli inseriti dall'app. Mediante funzione di Share è possibile inviare un link al proprio medico/nutrizionista che in questo modo può avere accesso diretto alla piattaforma, per verificare (esempio) l'andamento della dieta."
+  modalImage : [ screenshots/wj_1.png, screenshots/wj_2.png, screenshots/wj_3.png ]
   
 - name: Analytics for Department of Emergency
   image: /projects/ade.svg
-  url: "https://journ.cloud"
   summary: "Interfaccia _multi-level_ e _multi-entry_ per la gestione interna e standardizzazione dei dati EMR. Offre statistiche, proiezioni, predizioni."
   tags: ["Professional"]
+  modalDescription : "Nasce come maschera d'inserimento dati per gli studenti del Pronto Soccorso. Rapida, intuitiva, funzionale, permette una più agile raccolta dei dati all'interno del nostro dipartimento."
+  modalImage : [ screenshots/ade_1.png, screenshots/ade_3.jpg, screenshots/ade_4.jpg, screenshots/ade_ee_parser_detail.gif ]
