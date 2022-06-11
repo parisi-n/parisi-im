@@ -12,7 +12,7 @@ section:
 buttons:
 - name: Tutti
   filter: "all"
-- name: Journal in Cloud
+- name: Cloud
   filter: "inCloud"
 - name: Professional
   filter: "Professional"

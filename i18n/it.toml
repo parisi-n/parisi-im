@@ -1,0 +1,6 @@
+# More documentation here: https://github.com/nicksnyder/go-i18n
+[blog]
+other = "Blog"
+
+[read]
+other = "Continua"
