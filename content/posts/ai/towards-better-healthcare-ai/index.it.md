@@ -2,7 +2,7 @@
 title: "Towards better health & care: potenzialità dell'Intelligenza Artificiale"
 date: 2022-06-04
 description: Recap del Meet-up/evento tenutosi ad Amsterdam il 24 Maggio, in cui si è fatto il punto della situazione sullo stato dell'arte dell'uso nella medicina dell'AI.
-image: vrje_univesity.jpg
+image: vrje_university.jpg
 menu:
   sidebar:
     name: Towards better health & care - Amsterdam
