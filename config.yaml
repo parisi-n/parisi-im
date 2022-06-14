@@ -8,7 +8,6 @@ dateFormat : "02 Jan 2006"
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 defaultContentLanguage: it
-languageCode: it_IT
 languages:
   it:
     languageName: Italiano

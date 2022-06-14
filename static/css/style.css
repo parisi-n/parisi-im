@@ -45,8 +45,8 @@ p { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Roboto'; 
 a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Roboto'; letter-spacing: 0.5px; }
 
 /* HOME */
-@media only screen and (max-width: 576px) { .content { top: -80% } }
-.content { top: -75% }
+@media only screen and (max-width: 576px) { .home .content { top: -80% } }
+.home .content { top: -75% }
 .navbar-brand img { height: 40px !important; width: auto; }
 #homePageBackgroundImageDivStyled { background-image: none !important; background-color: var( --secondary-background-color ) !important; }
 .sidebar-holder { top: 3.1rem !important; }
