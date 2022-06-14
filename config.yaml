@@ -8,6 +8,7 @@ dateFormat : "02 Jan 2006"
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 defaultContentLanguage: it
+languageCode: it_IT
 languages:
   it:
     languageName: Italiano
@@ -35,11 +36,7 @@ outputs:
 enableEmoji: true
 
 # Site parameters
-params:
-  # GitHub repo URL and branch of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
-  gitBranch: main
-  
+params: 
   background: "images/np_logo.png"
 
   # specify whether you want to write some blog posts or not

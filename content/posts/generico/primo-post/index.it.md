@@ -1,14 +1,14 @@
 ---
 title: "L'inizio"
 date: 2021-09-04
-summary: Chi sono, cosa faccio e perchè questo (ennesimo) blog.
+description: Chi sono, cosa faccio e perchè questo (ennesimo) blog.
 image: featured-image.jpg
 menu:
   sidebar:
     name: Un nuovo inizio
     identifier: incipit-parisi-im
-    parent: generico
-    weight: 10
+    parent: varie
+    weight: 1
 categories: [ "Generico" ]
 ---
 

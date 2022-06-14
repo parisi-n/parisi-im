@@ -105,8 +105,14 @@
                 <li><a href={{ printf "mailto:%s" $value }} target="_blank" rel="noopener">
                   <span><i class="fas fa-envelope"></i></span> <span>{{ $value }}</span>
                 </a></li>
-              {{ else if (eq $key "phone") }}
-                <li><span><i class="fas fa-phone-alt"></i></span> <span>{{ $value }}</span></li>
+              {{ else if (eq $key "whatsapp") }}
+              <li><a href={{ printf "%s" $value }} target="_blank" rel="noopener">
+                    <span><i class="fab fa-whatsapp" aria-hidden="true"></i></span> <span>WhatsApp</span>
+                </a></li>
+              {{ else if (eq $key "form") }}
+                <li><a href={{ printf "%s" $value }} target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>{{ i18n "contact_form" }}</span>
+                </a></li>              
               {{ else if (eq $key "linkedin") }}
                 <li><a href={{ printf "https://www.linkedin.com/in/%s" $value }} target="_blank" rel="noopener">
                   <span><i class="fab fa-linkedin"></i></span> <span>{{ $author.name }}</span>
@@ -132,8 +138,9 @@
     {{ end }}
     {{ if $credentialsEnabled }}
     <hr />
-    <div class="container text-center">
-        {{ $copyrightNotice | markdownify }}
+    <div class="container text-center copyright">
+        <span class="author">{{ i18n "dr_prefix" }}{{ $author.name }}{{ i18n "dr_postfix" }}</span><br/>
+        <span class="year">{{ $copyrightNotice | markdownify }}</span>
     </div>
     {{ end }}
   </footer>

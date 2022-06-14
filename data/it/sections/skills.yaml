@@ -13,13 +13,13 @@ section:
 skills:
 - name: Emergenza-Urgenza
   logo: "/skills/emergency-room.svg"
-  summary: "Possiedo le principali certificazioin per lavorare nell'Emergenza-Urgenza - sia in contesto ospedaliero che extra-ospedaliero: ALS, APHTC, PALS, maxi-emergenze."
+  summary: "Possiedo le principali certificazioni per lavorare nell'Emergenza-Urgenza - sia in contesto ospedaliero che extra-ospedaliero: ALS, APHTC, PALS, maxi-emergenze. Attualmente in _formazione specialistica_."
   #url: "https://example.io/"
 
 - name: Coding
   logo: "/skills/coding.svg"
-  summary: "In passato PHP - oggi uso Python come linguaggio principale. Capace di scrivere, testare e mantenere applicativi scalabili su server VPS."
+  summary: "_PHP_ prima - oggi _Python_ - come linguaggio principale. Capace di scrivere, testare e mantenere applicativi scalabili su server VPS. So destreggiarmi con _JAVA, SQL, JS, AJAX, CSS_ ed ovviamente _HTML_."
   
 - name: Lingue straniere
   logo: "/skills/foreign-language.svg"
-  summary: "Madrelingua italiano. Riesco a comunicare nell'ambiente lavorativo in inglese. Possiedo basi di russo - in disuso."
+  summary: "Madrelingua italiano. Riesco a comunicare nell'ambiente lavorativo in inglese. Possiedo basi di russo e tedesco."

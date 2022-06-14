@@ -2,7 +2,7 @@
 title: Argomenti generici
 menu:
   sidebar:
-    name: Generico
-    identifier: generico
+    name: Varie
+    identifier: varie
     weight: 300
 ---

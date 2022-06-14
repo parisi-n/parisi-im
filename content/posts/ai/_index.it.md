@@ -4,5 +4,5 @@ menu:
   sidebar:
     name: AI
     identifier: ai
-    weight: 300
+    weight: 1
 ---

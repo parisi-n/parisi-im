@@ -7,3 +7,15 @@ other = "Continua"
 
 [present]
 other = "Ora"
+
+[contact_form]
+other = "Form"
+
+[dr_prefix]
+other = " Dr. "
+
+[dr_postfix]
+other = " "
+
+[all_posts]
+other = "Tutti i Post"
