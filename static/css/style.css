@@ -74,6 +74,7 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Rob
     background: var( --primary-color );
     border-bottom: 0px;
 }
+.final-navbar li a:hover { color: var(--primary-color); background: transparent; border-bottom: 0px; }
 .final-navbar li a { color: var( --text-color ); border-bottom: 0px; }
 .top-navbar .dropdown-menu a:hover { background: inherit; color: var( --primary-color ) }
 .navbar-collapse { margin-bottom: -2px; }
@@ -81,8 +82,10 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Rob
 .navbar-collapse.show .dropdown a:hover { color: var( --primary-color ) }
 .navbar-collapse.show li a, .navbar-collapse.collapsing li a { font-family: 'Oswald' }
 .navbar-collapse.show, .navbar-collapse.collapsing { padding-left: 0px; }
+.top-navbar .dropdown-menu.show { margin: 0px 0.1rem; padding-left: 0.5rem }
 
 /* POST */
+.hero-area { height: 500px; }
 .toc .nav-link:hover, .toc .nav-link:focus, .toc .nav-link.active { background-color: transparent !important; color: var(--primary-color) !important; font-weight: 900; }
 #search-box { height: 40px; background-color: var(--background-color-dark); border: 1px solid var(--text-color); border-radius: 3px; }
 .content .title h1 { font-size: clamp(40px, 8vw, 75px); }
@@ -90,6 +93,7 @@ a.header-anchor { color: var(--primary-color) !important; }
 a.header-anchor:hover { opacity: 0.8; transition: 0.3s }
 .post-content h2, .post-content h2 a { font-size: clamp(40px, 8vw, 55px); }
 .post-content a { font-weight: 600; }
+.post-content img { max-height: 550px; width: auto; margin-top: 1.5rem; margin-bottom: 3rem; }
 
 .keep-reading { width: 25px; }
 
@@ -134,8 +138,12 @@ a.header-anchor:hover { opacity: 0.8; transition: 0.3s }
 
 .recent-posts-section .card .card-footer span { opacity: 0.6; font-size: 12pt; }
 
-h3.card-title { color: var(--primary-color); font-weight: 600; }
+h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left; }
 .card-text { color: var( --text-color ) }
+
+@media only screen and (max-width: 576px) {
+    /* CLASSE PER IMMAGINI */
+}
 
 /* HOME - ABOUT */
 #about h5 { opacity: 0.4 }
@@ -149,7 +157,7 @@ h3.card-title { color: var(--primary-color); font-weight: 600; }
 #primary-skills .card-body { text-align: left; }
 #primary-skills .card-head { text-align: center; border: 1px solid rgba(0,0,0,.125); border-radius: 0.25rem; }
 #primary-skills .card-head img { border-radius: 0.1rem; padding: 2rem; margin-bottom: 2.5rem; height: 124px; object-fit: cover; }
-#primary-skills .card-head h3 { color: var( --text-color-dark ); }
+#primary-skills .card-head h3 { color: var( --text-color-dark ); text-align: center; }
 #primary-skills .card-title { margin-bottom: 2.5rem; }
 #primary-skills .card-text { margin-top: 1.5rem; }
 #primary-skills .skills-section .card .card-head { background-color: transparent; }
@@ -201,8 +209,8 @@ h3.card-title { color: var(--primary-color); font-weight: 600; }
     font-weight: 800;
     text-align: center;
     font-size: 22px;
-    margin-bottom: 10%;
-    font-family: "Sans Serif"
+    margin-bottom: 3%;
+    font-family: "Oswald"
 }
 .project-description p {
     color: #fff;
@@ -210,17 +218,18 @@ h3.card-title { color: var(--primary-color); font-weight: 600; }
     letter-spacing: 1px;
     padding: 0 5%;
     opacity: 0.8;
+    font-family: "Roboto"
 }
 
 .project-description .link-1 {
     left: -10%;
     position: relative;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .project-description .link-2 {
     left: 10%;
     position: relative;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .project-description a { color: #fff; opacity: 0.6; }
 .project-description a:hover { opacity: 1; }

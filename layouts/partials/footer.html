@@ -103,11 +103,11 @@
             {{ range $key,$value:= $author.contactInfo }}
               {{ if (eq $key "email") }}
                 <li><a href={{ printf "mailto:%s" $value }} target="_blank" rel="noopener">
-                  <span><i class="fas fa-envelope"></i></span> <span>{{ $value }}</span>
+                  <span><i class="fas fa-envelope"></i></span>&nbsp;<span>{{ $value }}</span>
                 </a></li>
               {{ else if (eq $key "whatsapp") }}
               <li><a href={{ printf "%s" $value }} target="_blank" rel="noopener">
-                    <span><i class="fab fa-whatsapp" aria-hidden="true"></i></span> <span>WhatsApp</span>
+                    <span><i class="fab fa-whatsapp" aria-hidden="true"></i></span>&nbsp;<span>WhatsApp</span>
                 </a></li>
               {{ else if (eq $key "form") }}
                 <li><a href={{ printf "%s" $value }} target="_blank" rel="noopener">
@@ -115,14 +115,14 @@
                 </a></li>              
               {{ else if (eq $key "linkedin") }}
                 <li><a href={{ printf "https://www.linkedin.com/in/%s" $value }} target="_blank" rel="noopener">
-                  <span><i class="fab fa-linkedin"></i></span> <span>{{ $author.name }}</span>
+                  <span><i class="fab fa-linkedin"></i></span>&nbsp;<span>{{ $author.name }}</span>
                 </a></li>
               {{ else if (eq $key "github") }}
                 <li><a href={{ printf "https://github.com/%s" $value }} target="_blank" rel="noopener">
-                  <span><i class="fab fa-github"></i></span> <span>{{ $value }}</span>
+                  <span><i class="fab fa-github"></i></span>&nbsp;<span>{{ $value }}</span>
                 </a></li>
               {{ else }}
-                <li><span>{{ title $key }}: </span> <span>{{ $value }}</span></li>
+                <li><span>{{ title $key }}: </span>&nbsp;<span>{{ $value }}</span></li>
               {{ end }}
             {{ end }}
           </ul>

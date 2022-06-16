@@ -19,6 +19,10 @@ skills:
 - name: Coding
   logo: "/skills/coding.svg"
   summary: "_PHP_ prima - oggi _Python_ - come linguaggio principale. Capace di scrivere, testare e mantenere applicativi scalabili su server VPS. So destreggiarmi con _JAVA, SQL, JS, AJAX, CSS_ ed ovviamente _HTML_."
+
+- name: Blockchain
+  logo: "/skills/blockchain.svg"
+  summary: "Appassionato di blockchain ed applicazioni reali in campo medico e finanziario. Inguaribile _IOTA supporter_."
   
 - name: Lingue straniere
   logo: "/skills/foreign-language.svg"
