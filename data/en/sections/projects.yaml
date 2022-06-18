@@ -37,7 +37,7 @@ projects:
   
 - name: Analytics for Department of Emergency
   image: /projects/ade.svg
-  summary: "This is a  _multi-level_ and _multi-entry_ interface to grant standardized medical data for the research group I am in. It provides furthermore stats, predictions, sneak-peeks about trends."
+  summary: "_Multi-level_ and _multi-entry_ interface to grant standardized medical data for the research group I am in. It provides furthermore stats, predictions, sneak-peeks about trends."
   tags: ["Professional"]
   modalDescription : "It was created to provide a unified interface to allow students and operators of the emergency departement to standardized ways to collect data for research jobs. It is Python-based _back-end_ side whereas client sides it is baed on jQuery and CSS (W3C)."
   modalImage : [ screenshots/ade_1.png, screenshots/ade_3.jpg, screenshots/ade_4.jpg, screenshots/ade_ee_parser_detail.gif ]

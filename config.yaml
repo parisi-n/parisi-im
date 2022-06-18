@@ -52,3 +52,20 @@ params:
     main: images/parisi_logo.png
     inverted: images/parisi_logo_inverted.png
     favicon: images/favicon.png
+    
+params:
+  features:
+    analytics:
+      enabled: true
+      google:
+        id: G-CY98B6SR5M
+        
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
