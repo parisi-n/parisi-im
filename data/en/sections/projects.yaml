@@ -1,0 +1,50 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+# filter buttons
+buttons:
+- name: Tutti
+  filter: "all"
+- name: Cloud
+  filter: "inCloud"
+- name: Professional
+  filter: "Professional"
+- name: Apps
+  filter: "apps"
+
+# your projects
+projects:
+- name: Pressure Journal in Cloud
+  image: /projects/pression_cloud.svg
+  url: "https://journ.cloud"
+  summary: "Accessible from everywhere, from the patient as well as the doctor, it provides a diary to insert medications, pressure values. It outputs advanced statistics for MD or patient."
+  tags: ["inCloud"]
+  modalDescription : "Available as Android App only - it provides a simple interface to data input and outputs advanced and different statistics for the patient - as well as a web interface for the doctor to provide him with a detailed and wide report. The web interface is easily provided to the doctor by the patient sharing a app-generated link."
+  modalImage : [ screenshots/pj_1.jpg, screenshots/pj_2.jpg, screenshots/pj_3.png, screenshots/pj_4.png ]
+
+- name: Weight Journal in Cloud
+  image: /projects/weight_cloud.svg
+  url: "https://journ.cloud"
+  summary: "Accessible from everywhere, from the patient as well as the doctor, it provides a diary to insert weights, moods during the diet, measures, foods."
+  tags: ["inCloud"]
+  modalDescription : "Weight Journal is the twin app of Pressure Journal. It is available as Android App for the patient and nested web interface with Pressure Journal. Through the Share function a link can be shared with the MD or your nutritionist to assess the mood and how the diet is goin on."
+  modalImage : [ screenshots/wj_1.png, screenshots/wj_2.png, screenshots/wj_3.png ]
+  
+- name: Analytics for Department of Emergency
+  image: /projects/ade.svg
+  summary: "This is a  _multi-level_ and _multi-entry_ interface to grant standardized medical data for the research group I am in. It provides furthermore stats, predictions, sneak-peeks about trends."
+  tags: ["Professional"]
+  modalDescription : "It was created to provide a unified interface to allow students and operators of the emergency departement to standardized ways to collect data for research jobs. It is Python-based _back-end_ side whereas client sides it is baed on jQuery and CSS (W3C)."
+  modalImage : [ screenshots/ade_1.png, screenshots/ade_3.jpg, screenshots/ade_4.jpg, screenshots/ade_ee_parser_detail.gif ]
+  
+- name: Android-BlackBerry Apps
+  image: /projects/android_blackberry_apps.svg
+  summary: "Several Android and BlackBerry apps - the most downloaded _ECG Guide Handbook_ with more than one million hits. **Projects deprecated**."
+  tags: ["Apps"]
+  modalDescription : "*ECG Guide Handbook* is the most downloaded among the developed Android/BlackBerry OS apps; furthermore there are several other apps into the medical fields such as *ECG ExerciseBook, Medical Assistant, HistoBook, HistoBook*. You can have a short look into the screen shots attached."
+  modalImage : [ screenshots/apps_eb_1.png, screenshots/apps_eb_2.png, screenshots/apps_ecg_guide_1.png, screenshots/apps_ecg_guide_2.png, screenshots/apps_hb_1.png, screenshots/apps_hb_2.png, screenshots/apps_hs_1.png, screenshots/apps_ma.png ]

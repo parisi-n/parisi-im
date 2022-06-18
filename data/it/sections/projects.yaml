@@ -17,7 +17,7 @@ buttons:
 - name: Professional
   filter: "Professional"
 - name: Apps
-  filter: "apps"
+  filter: "Apps"
 
 # your projects
 projects:
@@ -43,3 +43,10 @@ projects:
   tags: ["Professional"]
   modalDescription : "Nasce come maschera d'inserimento dati per gli studenti del Pronto Soccorso. Rapida, intuitiva, funzionale, permette una più agile raccolta dei dati all'interno del nostro dipartimento. Basato su Python come _back-end_ - coniuga CSS (W3C) e jQuery lato _front-end_."
   modalImage : [ screenshots/ade_1.png, screenshots/ade_3.jpg, screenshots/ade_4.jpg, screenshots/ade_ee_parser_detail.gif ]
+  
+- name: Android-BlackBerry Apps
+  image: /projects/android_blackberry_apps.svg
+  summary: "Numerose app per Android e BlackBerry - la più scaricata _ECG Guide Handbook_ con più di un milione di downloads. **Non più disponibili**."
+  tags: ["Apps"]
+  modalDescription : "*ECG Guide Handbook* è sicuramente la più nota e scaricata delle app Android/BlackBerry OS sviluppate; nel campo medico tra le altre app troviamo anche *ECG ExerciseBook, Medical Assistant, HistoBook, HistoBook*. Puoi dare uno sguardo agli screenshots allegati per comprendere l'orientamento delle varie app."
+  modalImage : [ screenshots/apps_eb_1.png, screenshots/apps_eb_2.png, screenshots/apps_ecg_guide_1.png, screenshots/apps_ecg_guide_2.png, screenshots/apps_hb_1.png, screenshots/apps_hb_2.png, screenshots/apps_hs_1.png, screenshots/apps_ma.png ]

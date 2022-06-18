@@ -18,11 +18,15 @@ skills:
 
 - name: Coding
   logo: "/skills/coding.svg"
-  summary: "_PHP_ prima - oggi _Python_ - come linguaggio principale. Capace di scrivere, testare e mantenere applicativi scalabili su server VPS. So destreggiarmi con _JAVA, SQL, JS, AJAX, CSS_ ed ovviamente _HTML_."
+  summary: "_PHP_ prima - oggi _Python_ - come linguaggio principale. Capace di scrivere, testare e mantenere applicativi scalabili su server VPS. So destreggiarmi con _JAVA, JS, AJAX, CSS_ ed ovviamente _HTML_."
 
+- name: Database
+  logo: "/skills/database.svg"
+  summary: "Son capace di gestire, operare, manutenere database SQL di medie dimensioni, con particolare focus su _mySQL_."
+  
 - name: Blockchain
   logo: "/skills/blockchain.svg"
-  summary: "Appassionato di blockchain ed applicazioni reali in campo medico e finanziario. Inguaribile _IOTA supporter_."
+  summary: "Appassionato di blockchain ed applicazioni reali in campo medico e finanziario. Inguaribile _IOTA enthusiast."
   
 - name: Lingue straniere
   logo: "/skills/foreign-language.svg"

@@ -4,16 +4,17 @@ nickname: "Nicola Parisi"
 image: "images/np_logo.png"
 
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Welcome, I am"
-subtitle: "I merge Medicine, Data, Technology."
+greeting: "Hi, I am"
+subtitle: "I join Medicine, Data and Coding."
 
 # give your contact information. they will be used in the footer
 contactInfo:
-  email: "n"
+  form: "contact/"
+  whatsapp: "whatsapp"
 
 # a summary of what you do
 summary:
-    - I am a Doctor
-    - I work in the Emergency Department
-    - I love to code
-    - I am a Developer
+- Medical Doctor
+- I work in the Emergency
+- I code beautiful things
+- I like data

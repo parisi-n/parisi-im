@@ -107,8 +107,8 @@ other = "Mostra meno"
 # [project_details]
 # other = "Details"
 
-# [err_404]
-# other = "The page you are looking for is not there yet."
+[err_404]
+other = "La pagina che cerchi non esiste."
 
 [more]
 other = "Di più"

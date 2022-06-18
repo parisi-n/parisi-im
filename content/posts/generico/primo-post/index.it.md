@@ -31,7 +31,7 @@ Per ora sono due rette parallele: a lungo andare non si sono (ancora) incontrate
 ## Questione di necessità
 
 Avevo necessità di una pagina personale e professionale, in cui parlare di tutte le nerdate che giornalmente penso e talvolta partorisco;
-Avevo necessità di una pagina in cui fare _speakingstorming.
+Avevo necessità di una pagina in cui fare _speakingstorming_.
 
 Una pagina in cui parlare di nuove tecnologie, di Python (e di quanto lo reputi più contorto di R); di come sia riuscito a configurare il mio Raspberry Pi 4, collegato ad una _smart plug_, a cui mi collego tramite VPN, per programmare in Python.
 

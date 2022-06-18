@@ -1,0 +1,9 @@
+# section information
+section:
+  name: Last posts
+  id: recent-posts
+  enable: true
+  weight: 6
+  showOnNavbar: false
+  hideTitle: false
+  numShow: 3

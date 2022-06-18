@@ -1,0 +1,30 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Emergency Medicine
+  logo: "/skills/emergency-room.svg"
+  summary: "I own main certificates to work into Emergency field - both into the Hospital and in the Territory: ALS, APHTC, PALS, maxi-emergenze. Now _resident doctor_."
+  
+- name: Coding
+  logo: "/skills/coding.svg"
+  summary: "First _PHP_ - now on _Python_ as a main develop language. I am able to rite down, manage and mantain scalable web-sites and web-apps on private VPS. I manage _JAVA, JS, AJAX, CSS_ as well and obviously _HTML_."
+
+- name: Database
+  logo: "/skills/database.svg"
+  summary: "I can manage, work with and mantain middle-size SQL databases overall if based on _mySQL_."
+  
+- name: Blockchain
+  logo: "/skills/blockchain.svg"
+  summary: "I am into blockchain and real applications into medical and financial fields. _IOTA enthusiast_."
+  
+- name: Foreign languages
+  logo: "/skills/foreign-language.svg"
+  summary: "I am Italian mothertongue but I am capable of communicating in english. I own basis of russian and german language."

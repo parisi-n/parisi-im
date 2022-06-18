@@ -1,0 +1,33 @@
+{{ define "header" }}
+    <link rel="stylesheet" href="{{ "/css/404.css" | relURL }}">
+{{ end }}
+
+{{ define "navbar" }}
+    {{ partial "navigators/navbar-2.html" (dict "baseURL" site.BaseURL "title" site.Title "hasToggleButton" false) }}
+{{ end }}
+
+{{ define "content" }}
+{{/* not found image */}}
+{{ $notFoundImage := "/images/404.png" }}
+
+{{/* resize the image. don't resize svg because it is not supported */}}
+{{ $notFoundImage := resources.Get $notFoundImage}}
+{{ if and $notFoundImage (ne $notFoundImage.MediaType.SubType "svg") }}
+  {{ $notFoundImage = $notFoundImage.Resize "1500x" }}
+{{ end }}
+{{ $notFoundImage = $notFoundImage.RelPermalink}}
+
+<div class="container">
+    <div class="notFound">
+        <div class="message">
+            <h1>Pagina non trovata</h1>
+            <p style="text-align: center !important;"><i class="far fa-frown" style="color: #ff4343; opacity: 0.5; font-size: 96pt;"></i></p>
+            <h4>{{ i18n "err_404" }}</h4>
+            
+            <div style="text-align: center; margin-top: 2.7em; margin-bottom: -2.7em;">
+                <a href="/" class="more-link">Torna alla Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

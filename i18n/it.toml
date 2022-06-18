@@ -19,3 +19,6 @@ other = " "
 
 [all_posts]
 other = "Tutti i Post"
+
+[err_404]
+other = "La pagina che cerchi non esiste."

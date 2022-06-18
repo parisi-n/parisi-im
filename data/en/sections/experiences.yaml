@@ -1,35 +1,33 @@
 # section information
 section:
-  name: Esperienze
+  name: Experiences
   id: experiences
   enable: true
   weight: 3
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true 
 
 # Your experiences
 experiences:
 - company:
-    name: Università degli Studi di Pavia
+    name: University of Pavia
     url: "http://www-med.unipv.it/scuole-di-specializzazione/scuole-di-specializzazione/"
     location: Pavia
     flag: italy
     # company overview
-    overview: Medico in Formazione Specialistica in Medicina Emergenza-Urgenza
+    overview: Resident Doctor in Emergency Medicine
   positions:
-  - designation: Medico
-    start: Gennaio 2021
+  - designation: Medical Doctor
+    start: January 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
 
 - company:
     name: Full Stack Developer
-    overview: Sviluppatore Full Stack
+    overview: Full Stack Developer
     flag: italy
   positions:
-  - designation: Sviluppatore
-    start: Febbraio 2018
+  - designation: Developer
+    start: February 2018
     responsibilities:
     - nPSoftware // Android OS, Windows Phone, Blackberry OS
     - Journal in Cloud
@@ -38,21 +36,21 @@ experiences:
 - company:
     name: Miyazaki University Hospital
     url: "https://www.miyazaki-u.ac.jp/english/"
-    overview: Tirocinante presso l'Ospedale Universitario di Miyazaki.
+    overview: Trainee doctor at University Hospital of Miyazaki.
     flag: japan
   positions:
-  - designation: Medico
-    start: Agosto 2017
-    end: Ottobre 2017
+  - designation: Medical Doctor
+    start: August 2017
+    end: October 2017
     
 - company:
     name: nParisi.com
     url: "https://nparisi.com"
     flag: italy
-    overview: Writer di un personal blog fotografico con tema naturalistico e viaggi.
+    overview: Writer and photographer for my personal blog focused on nature and trips.
   positions:
   - designation: Blogger
-    start: Ottobre 2018
+    start: October 2018
     
 - company:
     name: Vilnius University
@@ -60,5 +58,5 @@ experiences:
     flag: lithuania
   positions:
   - designation: Erasmus+ Exchage Student
-    start: Settembre 2015
-    end: Giugno 2016
+    start: September 2015
+    end: June 2016

@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Chi sono
+  name: About Me
   id: about
   enable: true
   weight: 1
@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Medico in Formazione
+designation: Resident Doctor
 # your company information
 company:
-  name: Pronto Soccorso - Ospedale San Matteo
-  url: "https://www.example.com"
+  name: Emergency Departement - San Matteo Hospital
+  url: "http://www.sanmatteo.org/site/home/attivita-assistenziale/emergenza.html"
 
 # your resume. this file path should be relative to you "static" directory
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Curioso, quick-learner, cerco giornalmente un modo per unire le mie due grandi passioni: la medicina e la programmazione. Amante delle lingue, curioso su tutto quel che riguarda le nuove tecnologie - blockchain, intelligenza artificiale, data analysis.'
+summary: 'Curious, quick-learner, I daily look to a way to merge my two passions: medicine and coding. Foreign languages and cultures lover, in the spare time I go deep into new technologies to bring them to my job: blockchain, artificial intelligence, data analysis.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -43,21 +43,12 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Medicina
+- name: Medicine
   percentage: 95
   color: primary-color
 - name: Coding
   percentage: 85
   color: primary-color
-- name: Lingue straniere
+- name: Foreign langs
   percentage: 75
   color: primary-color
-  
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
-# badges:
-#- type: certification
-#  name: Certified Kubernetes Security Specialist
-#  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-#  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"

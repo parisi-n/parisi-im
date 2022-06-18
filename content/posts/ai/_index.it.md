@@ -1,8 +1,8 @@
 ---
-title: Argomenti generici
+title: Intelligenza Artificiale
 menu:
   sidebar:
-    name: AI
+    name: Ingelligenza Artificiale
     identifier: ai
     weight: 1
 ---

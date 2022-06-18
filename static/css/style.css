@@ -85,7 +85,8 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Rob
 .top-navbar .dropdown-menu.show { margin: 0px 0.1rem; padding-left: 0.5rem }
 
 /* POST */
-.hero-area { height: 500px; }
+.hero-area { height: 500px; filter: saturate(0.5) }
+.card-img-top { filter: saturate(0.5) }
 .toc .nav-link:hover, .toc .nav-link:focus, .toc .nav-link.active { background-color: transparent !important; color: var(--primary-color) !important; font-weight: 900; }
 #search-box { height: 40px; background-color: var(--background-color-dark); border: 1px solid var(--text-color); border-radius: 3px; }
 .content .title h1 { font-size: clamp(40px, 8vw, 75px); }
@@ -95,6 +96,7 @@ a.header-anchor:hover { opacity: 0.8; transition: 0.3s }
 .post-content a { font-weight: 600; }
 .post-content img { max-height: 550px; width: auto; margin-top: 1.5rem; margin-bottom: 3rem; }
 
+.post-summary { max-height: 210px; }
 .keep-reading { width: 25px; }
 
 .btn-group { background-color: #f6f6f699; border-radius: 5px; }

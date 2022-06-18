@@ -5,12 +5,12 @@ image: "images/np_logo.png"
 
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Ciao, sono"
-subtitle: "Unisco Medicina, Dati e Tecnologia."
+subtitle: "Unisco Medicina, Dati e Programmazione."
 
 # give your contact information. they will be used in the footer
 contactInfo:
   form: "contact/"
-  whatsapp: "whatsapp"
+  whatsapp: "+39"
 
 # a summary of what you do
 summary:

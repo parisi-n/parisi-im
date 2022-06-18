@@ -111,7 +111,7 @@
                 </a></li>
               {{ else if (eq $key "form") }}
                 <li><a href={{ printf "%s" $value }} target="_blank" rel="noopener">
-                  <span><i class="fas fa-envelope"></i></span> <span>{{ i18n "contact_form" }}</span>
+                  <span><i class="fas fa-envelope"></i></span>&nbsp;<span>{{ i18n "contact_form" }}</span>
                 </a></li>              
               {{ else if (eq $key "linkedin") }}
                 <li><a href={{ printf "https://www.linkedin.com/in/%s" $value }} target="_blank" rel="noopener">
