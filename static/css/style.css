@@ -17,15 +17,6 @@ and open the template in the editor.
     --background-color: #f1f2f4;
     --background-color-dark: #f0f1f4;
     --secondary-background-color: #212529;
-
-    --text-secondary-color: #6c757d;
-
-
-    --secondary-color: #f8f9fa;
-    --text-secondary-color-dark: #b0b3b8;
-    --secondary-background-color-dark: #212529;
-    
-    --secondary-color-dark: #212529;
 }
 
 body {
@@ -44,12 +35,25 @@ h3 { color: var( --primary-color ) }
 p { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Roboto'; letter-spacing: 0.5px; color: var( --text-color-dark ); }
 a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Roboto'; letter-spacing: 0.5px; }
 
+/**
+ * SCROLLBAR
+ */
+/* width */
+::-webkit-scrollbar { width: 21px; }
+/* Track */
+::-webkit-scrollbar-track { background: #f8f8f8; }
+ /* Handle */
+::-webkit-scrollbar-thumb { background: var(--primary-color); border-radius: 5px; }
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover { background: var(--primary-color-dark); }
+
 /* HOME */
 @media only screen and (max-width: 576px) { .home .content { top: -80% } }
 .home .content { top: -75% }
 .navbar-brand img { height: 40px !important; width: auto; }
 #homePageBackgroundImageDivStyled { background-image: none !important; background-color: var( --secondary-background-color ) !important; }
 .sidebar-holder { top: 3.1rem !important; }
+.sidebar { height: 95vh; } /* Elimina lo scroll verticale a meno di numerosi posts */
 .navbar-toggler:focus, .navbar-toggler:hover { outline: none !important; }
 .navbar-light .navbar-toggler-icon:hover, .navbar-light .navbar-toggler-icon:focus, .navbar-dark .navbar-toggler-icon:hover, .navbar-dark .navbar-toggler-icon:focus { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 67, 67, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; }
 

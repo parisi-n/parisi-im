@@ -23,7 +23,7 @@ markup:
   tableOfContents:
     startLevel: 2
     endLevel: 6
-    ordered: true
+    ordered: false
 
 # At least HTML and JSON are required for the main HTML content and
 # client-side JavaScript search
@@ -53,7 +53,6 @@ params:
     inverted: images/parisi_logo_inverted.png
     favicon: images/favicon.png
     
-params:
   features:
     analytics:
       enabled: true
