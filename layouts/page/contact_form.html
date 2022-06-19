@@ -33,18 +33,18 @@
             <form name="contact" method="POST" data-netlify="true" autocomplete="off" action="contact/success" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
               <div class="form-group">
                 <label for="inputNome">{{ i18n "contact_form_nome"}}
-                <input type="email" class="form-control" id="inputNome" placeholder="{{ i18n "contact_form_nome_placeholder"}}" required>
+                <input type="text" name="Nome" class="form-control" id="inputNome" placeholder="{{ i18n "contact_form_nome_placeholder"}}" required>
                 </label>
                 <small id="emailHelp" class="form-text text-muted">{{ i18n "contact_form_not_disclosure"}}</small>
               </div>
               <div class="form-group">
                 <label for="inputEmail">{{ i18n "contact_form_email"}}
-                <input type="password" class="form-control" id="inputEmail" placeholder="{{ i18n "contact_form_email_placeholder"}}" required>
+                    <input type="text" name="eMail" class="form-control" id="inputEmail" placeholder="{{ i18n "contact_form_email_placeholder"}}" required>
                 </label>
               </div>
               <div class="form-group">
                 <label for="inputMessaggio">{{ i18n "contact_form_messaggio"}}
-                <textarea class="form-control" id="inputMessaggio" placeholder="{{ i18n "contact_form_messaggio_placeholder"}}" rows="5" required></textarea>
+                <textarea class="form-control" name="Messaggio" id="inputMessaggio" placeholder="{{ i18n "contact_form_messaggio_placeholder"}}" rows="5" required></textarea>
                 </label>
               </div>
               <div data-netlify-recaptcha="true"></div>
