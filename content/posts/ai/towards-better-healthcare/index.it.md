@@ -13,7 +13,7 @@ tags: ["Eventi", "Meet-up", "AI"]
 categories: ["Eventi", "AI"]
 ---
 
-Lo scorso 24 Maggio si è tenuto ad Amsterdam - presso la [Vrje University](https://vrje.nl) - l'evento *Towards better health&care: the potential of AI* organizzato dall'attivissima comunità AMDS (trovate il gruppo ufficiale [qui](https://www.meetup.com/it-IT/amsterdam-medical-data-science/).
+Lo scorso 24 Maggio si è tenuto ad Amsterdam - presso la [Vrje University](https://vrje.nl) - l'evento *Towards better health&care: the potential of AI* organizzato dall'attivissima comunità AMDS (trovate il gruppo ufficiale [qui](https://www.meetup.com/it-IT/amsterdam-medical-data-science/)).
 
 Ma prima di entrare nel vivo dell'evento, facciamo un passo indietro.
 

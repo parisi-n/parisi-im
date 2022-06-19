@@ -38,11 +38,15 @@ I realized I had the need of a page to talk about my progresses in Python, why I
 
 Recently I read _Mastering Bitcoin_ and I wanted a place to talk of it about.
 
-## DaysOfCoding
+## #DaysOfCoding
 
 Can't wait to start _#DaysOfCoding_.
 
 Really.
+
+{{< alert type="info" >}}
+To those who don't know what #DaysOfCoding is - that referers to a series of daily post written in a certain amount of time (usually 100 days) where it is tracked progresses and learning curve of a new language the author tries to learn.
+{{< /alert >}}
 
 ## Hugo
 

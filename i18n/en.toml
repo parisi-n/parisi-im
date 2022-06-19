@@ -13,3 +13,33 @@ other = ", MD "
 
 [all_posts]
 other = "All Posts"
+
+[contact_me]
+other = "Contact Me"
+
+[contact_form_nome]
+other = "Name"
+
+[contact_form_nome_placeholder]
+other = "Your name"
+
+[contact_form_email]
+other = "Email"
+
+[contact_form_email_placeholder]
+other = "Your email"
+
+[contact_form_messaggio]
+other = "Message"
+
+[contact_form_messaggio_placeholder]
+other = "Your message here..."
+
+[contact_form_invio]
+other = "Submit"
+
+[contact_form_success_title]
+other = "Message delivered successfully!"
+
+[contact_form_success_body]
+other = "Thank you for you message. I'll be back to you as soon as I can!"

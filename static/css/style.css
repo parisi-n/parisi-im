@@ -137,6 +137,9 @@ a.header-anchor:hover { opacity: 0.8; transition: 0.3s }
 .btn-outline-info:hover {
     background-color: var(--primary-color-dark) !important;
 }
+@media only screen and (max-width: 768px) { #scroll-to-top { bottom: 4rem !important; right: 0.5rem !important; } }
+
+.dropdown-item.active, .dropdown-item:active { background-color: var( --primary-color ); }
 
 #recent-post-cards .card { cursor: pointer; } 
 #recent-post-cards .card:hover .btn-outline-info { background-color: var( --primary-color-dark ) }
@@ -152,7 +155,9 @@ h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left;
 }
 
 /* HOME - ABOUT */
-#about h5 { opacity: 0.4 }
+#about .company { opacity: 0.4 }
+#about .location i { color: var( --primary-color ); }
+#about .location .location_country { opacity: 0.4; color: initial; }
 .circular-progress.primary-color .circular-progress-bar { border-color: var( --primary-color ); }
 .social-link a { color: var( --text-color ) !important }
 .social-link a:hover { color: var( --primary-color ) !important }
@@ -267,3 +272,6 @@ h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left;
 .tree li a:hover { color: var(--primary-color); font-weight: 900; }
 
 .tree i { font-size: 14px; }
+
+/* CONTACT FORM */
+#contact_form { margin: 10rem 17.5% 0rem; height: 70vh; }

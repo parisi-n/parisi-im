@@ -9,10 +9,15 @@ section:
 
 # your designation
 designation: Medico in Formazione
+
+# posizione nel mondo
+location: "Pavia"
+location_country: "Italia"
+
 # your company information
 company:
   name: Pronto Soccorso - Ospedale San Matteo
-  url: "https://www.example.com"
+  url: "http://www.sanmatteo.org/site/home/attivita-assistenziale/emergenza.html"
 
 # your resume. this file path should be relative to you "static" directory
 # resume: "files/resume.pdf"

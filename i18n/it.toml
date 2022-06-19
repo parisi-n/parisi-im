@@ -22,3 +22,33 @@ other = "Tutti i Post"
 
 [err_404]
 other = "La pagina che cerchi non esiste."
+
+[contact_me]
+other = "Contattami"
+
+[contact_form_nome]
+other = "Nome"
+
+[contact_form_nome_placeholder]
+other = "Inserisci il tuo nome"
+
+[contact_form_email]
+other = "Email"
+
+[contact_form_email_placeholder]
+other = "Inserisci la tua mail qui"
+
+[contact_form_messaggio]
+other = "Messaggio"
+
+[contact_form_messaggio_placeholder]
+other = "Inserisci qui il tuo messaggio"
+
+[contact_form_invio]
+other = "Invio"
+
+[contact_form_success_title]
+other = "Messaggio inoltrato con successo!"
+
+[contact_form_success_body]
+other = "Grazie per il messaggio. Ti risponderò quanto prima!"

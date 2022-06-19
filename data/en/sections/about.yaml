@@ -9,6 +9,11 @@ section:
 
 # your designation
 designation: Resident Doctor
+
+# posizione nel mondo
+location: "Pavia"
+location_country: "Italy"
+
 # your company information
 company:
   name: Emergency Departement - San Matteo Hospital

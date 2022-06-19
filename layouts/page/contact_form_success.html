@@ -1,0 +1,50 @@
+{{ define "header" }}
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="{{ "/css/layouts/single.css" | relURL }}"/>
+<link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL }}">
+<!--================= custom style overrides =========================-->
+<link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
+
+{{ end }}
+
+{{ define "navbar" }}
+    {{ partial "navigators/navbar-2.html" . }}
+{{ end }}
+
+
+{{ define "content" }}
+<section class="content-section" id="content-section" style="margin: 0 auto;">
+  <div class="content">
+    <div class="container p-0 read-area">
+
+      <!--Content Start-->
+      <div class="page-content">
+
+        <!-- Form start -->
+        <div id="contact_form">
+            <div class="title">
+              <h2 style="color: #009900">{{ i18n "contact_form_success_title" }}</h2>
+            </div>
+            <p style="text-align: center">
+                {{ i18n "contact_form_success_body" }}
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+
+{{ define "scripts" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="{{ "/js/single.js" | relURL }}"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+{{ end }}
