@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ $siteDescription := .Site.Params.description }}
+    {{ if (index .Site.Data .Site.Language.Lang).site }}
+      {{ $siteConfig := (index .Site.Data .Site.Language.Lang).site }}
+      {{ if $siteConfig.description }}
+        {{ $siteDescription = $siteConfig.description }}
+      {{ end }}
+    {{ end }}
+    <title>{{ .Page.Title }} | {{ .Site.Title }} | {{ $siteDescription }}</title>
+    <!------ ADD COMMON HEADERS -------->
+    {{- partial "header.html" . -}}
+    {{ template "_internal/opengraph.html" . }}
+
+    <!------ ADD PAGE SPECIFIC HEADERS ------->
+    {{ block "header" . }} {{ end }}
+
+    <!--================= add analytics if enabled =========================-->
+    {{- partial "analytics.html" . -}}
+
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      <!----- ADD NAVBAR --------------->
+      {{ block "navbar" . }} {{ end }}
+
+      <!----- ADD SIDEBAR --------------->
+      {{ block "sidebar" . }} {{ end }}
+
+      <!----- ADD PAGE CONTENT --------->
+      {{ block "content" . }} {{ end }}
+
+      <!----- ADD TABLE OF CONTENTS ----------->
+      {{ block "toc" . }} {{ end }}
+    </div>
+
+    <!------- ADD FOOTER ------------>
+    {{ $footerTemplate:= site.Params.footer.template | default "footer.html" }}
+    {{- partial $footerTemplate . -}}
+
+    <!------- ADD COMMON SCRIPTS ------->
+    {{ partial "scripts.html" . }}
+
+    <!------- ADD PAGE SPECIFIC SCRIPTS ------>
+    {{ block "scripts" . }} {{ end }}
+
+    <!------ IF WANTED, ADD SUPPORT LINKS -------->
+    {{- partial "misc/support.html" . -}}
+
+  </body>
+</html>

@@ -274,4 +274,4 @@ h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left;
 .tree i { font-size: 14px; }
 
 /* CONTACT FORM */
-#contact_form { margin: 10rem 17.5% 0rem; height: 70vh; }
+#contact_form { margin: 10rem 17.5% 0rem; min-height: 650px; }
