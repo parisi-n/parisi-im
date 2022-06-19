@@ -1,23 +1,51 @@
 {{ define "header" }}
-    <link rel="stylesheet" href="{{ "/css/404.css" | relURL }}">
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="{{ "/css/layouts/single.css" | relURL }}"/>
+<link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL }}">
+<!--================= custom style overrides =========================-->
+<link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
+
 {{ end }}
 
 {{ define "navbar" }}
-    {{ partial "navigators/navbar-2.html" (dict "baseURL" site.BaseURL "title" site.Title "hasToggleButton" false) }}
+    {{ partial "navigators/navbar-2.html" . }}
 {{ end }}
 
+
 {{ define "content" }}
-<div class="container">
-    <div class="notFound">
-        <div class="message">
-            <h1>Pagina non trovata</h1>
+<section class="content-section" id="content-section" style="margin: 0 auto;">
+  <div class="content">
+    <div class="container p-0 read-area">
+
+      <!--Content Start-->
+      <div class="page-content">
+
+        <!-- Page start -->
+        <div style="min-height: 550px">
+            <h1>Page not Found</h1>
             <p style="text-align: center !important;"><i class="far fa-frown" style="color: #ff4343; opacity: 0.5; font-size: 96pt;"></i></p>
             <h4>{{ i18n "err_404" }}</h4>
             
             <div style="text-align: center; margin-top: 2.7em; margin-bottom: -2.7em;">
-                <a href="/" class="more-link">Torna alla Home</a>
+                <a href="/" class="more-link">Home</a>
             </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
+</section>
+{{ end }}
+
+
+{{ define "scripts" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="{{ "/js/single.js" | relURL }}"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
 {{ end }}
