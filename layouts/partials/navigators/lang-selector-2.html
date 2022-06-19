@@ -11,7 +11,7 @@
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
       {{ range .Translations }}
-        <a class="dropdown-item nav-link languages-item" href="{{ path.Join "/" (cond (eq .Language.Lang "en") "" .Language.Lang) $pageURL }}">
+        <a class="dropdown-item nav-link languages-item" href="{{ path.Join "/" (cond (eq .Language.Lang "it") "" .Language.Lang) $pageURL }}">
           {{ $countryCode := partial "helpers/country-code.html" . }}
           <span class="flag-icon flag-icon-{{$countryCode}}"></span>
           {{ .Language.LanguageName }}
