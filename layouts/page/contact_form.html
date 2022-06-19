@@ -30,7 +30,7 @@
               <h1>{{ .Page.Title }}</h1>
             </div>
 
-            <form name="contact" method="POST" data-netlify="true" autocomplete="off" action="contact/success" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+            <form name="contact" method="POST" data-netlify="true" autocomplete="off" action="/contact/success" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
               <div class="form-group">
                 <label for="inputNome">{{ i18n "contact_form_nome"}}</label>
                 <input type="text" name="Nome" class="form-control" id="inputNome" placeholder="{{ i18n "contact_form_nome_placeholder"}}" required>
