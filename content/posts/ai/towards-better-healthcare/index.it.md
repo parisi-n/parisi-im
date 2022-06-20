@@ -40,6 +40,7 @@ Il tutto accompagnato da *pizza*.
 Il paziente per l'intero periodo della manifestazione è stato chiamato **cliente** e - solo raramente - utente - da parte del personale non-medico.
 Ma anche durante gli speech tenuti dal personale medico la persona finale raramente è stata chiamata _paziente_.
 {{< /alert >}}
+
 L'evento in questione (*completamente in inglese*) però non è stato un semplice meetup di alcune ore, ma un evento in piena regola, organizzato nella mattina e nella sera:  ci sono state sessioni di _workshop_, di _postering_ su progetti in fase di sviluppo, ed interventi riflessivi circa potenziali futuri sviluppi (a carattere più teoretico-divulgativo piuttosto hce scientifico).
 
 {{< img src="projects.jpg" align="center" title="Un progetto proposto durante l'evento" >}}
