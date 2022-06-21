@@ -32,7 +32,7 @@
       </h5>
       {{ end }}
       {{ if .location }}
-        <h5 class="p-1 location"><i class="fa-solid fa-location-dot"></i>&nbsp;{{ .location }}{{ if .location_country }}<i class="location_country">, {{ .location_country }}</i>{{ end }}</h5>
+        <h5 class="p-1 location"><i class="fa-solid fa-location-dot"></i>&nbsp;{{ .location }}{{ if .location_country }}&nbsp;<span class="location_country"> {{ .location_country }}</span>{{ end }}</h5>
       {{ end }}
       <p class="p-1 text-justify">
         {{ .summary | markdownify }}
