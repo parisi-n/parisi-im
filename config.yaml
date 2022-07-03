@@ -58,3 +58,13 @@ params:
       enabled: true
       google:
         id: G-CY98B6SR5M
+        
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
