@@ -7,6 +7,9 @@
       <div class="card-body">
         <h3 class="card-title">{{ .Title }}</h3>
         <p class="card-text post-summary">{{ .Description }}</p>
+        <div class="card-labels">
+            <span>{{ index .Params.categories 0 }}</span>
+        </div>
       </div>
       <div class="card-footer">
         <span class="float-left">{{ .Date.Format "January 2006" }}</span>

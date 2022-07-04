@@ -1,8 +1,8 @@
 ---
-title: Argomenti generici
+title: Generico
 menu:
   sidebar:
-    name: Varie
+    name: Generico
     identifier: varie
     weight: 300
 ---

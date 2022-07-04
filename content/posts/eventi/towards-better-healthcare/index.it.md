@@ -7,9 +7,8 @@ menu:
   sidebar:
     name: Towards better health & care - Amsterdam
     identifier: towards-better-healthcare-ai
-    parent: ai
+    parent: events
     weight: 1
-tags: ["Eventi", "Meet-up", "AI"]
 categories: ["Eventi", "AI"]
 ---
 

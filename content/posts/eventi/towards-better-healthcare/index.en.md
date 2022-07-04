@@ -7,10 +7,9 @@ menu:
   sidebar:
     name: Towards better health & care - Amsterdam
     identifier: towards-better-healthcare-ai
-    parent: ai
+    parent: events
     weight: 1
-tags: ["Eventi", "Meet-up", "AI"]
-categories: ["Eventi", "AI"]
+categories: ["Events", "AI"]
 ---
 
 It was the 24th of May and in Amsterdam - at [Vrje University](https://vrje.nl) - the event *Towards better health&care: the potential of AI* has had place held by AMDS (you can find the official community group [here](https://www.meetup.com/it-IT/amsterdam-medical-data-science/).
