@@ -65,7 +65,7 @@ L'ultimo capitolo viene dedicato ad una rapida panoramica al _deep learning_ ed 
 
 Circa metà del libro è dedicata alla realizzazione di progetti **pratici** e di uso reale: si tenta di sviluppare un modello per la **riduzione della riammissione in Pronto Soccorso del paziente** (misurando indirettamente la qualità delle cure) e un modello che quantifica la qualità sanitaria fornita ai pazienti con ESRD (End Stage Renal Disease);
 
-## Opinione
+## Considerazioni
 
 Un libro assolutamente da consigliare ad **un medico** che decida di intraprendere, per ragioni di ricerca o di miglioramento delle performance del dipartimento, la strada dell'analisi dei dati o che cerchi un valido sostegno nella creazione di modelli predittivi _data-based_.
 
