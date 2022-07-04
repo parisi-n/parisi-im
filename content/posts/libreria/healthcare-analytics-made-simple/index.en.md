@@ -9,7 +9,7 @@ menu:
     identifier: healthcare-analytics-made-simple
     parent: libreria
     weight: 1
-categories: [ "Libreria" ]
+categories: [ "Library" ]
 ---
 
 {{< alert type="info" >}}
