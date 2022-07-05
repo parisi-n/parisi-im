@@ -9,7 +9,7 @@ menu:
     identifier: incipit-parisi-im
     parent: varie
     weight: 1
-categories: [ "Generico" ]
+tags: [ "Varie", "Blog" ]
 ---
 
 Il primo post non si scorda mai.

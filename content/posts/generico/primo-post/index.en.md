@@ -9,7 +9,7 @@ menu:
     identifier: incipit-parisi-im
     parent: varie
     weight: 1
-categories: [ "Generico" ]
+tags: [ "Various", "Blog" ]
 ---
 
 First post is forever, it is like a opening party.

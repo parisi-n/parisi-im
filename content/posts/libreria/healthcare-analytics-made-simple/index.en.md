@@ -9,7 +9,7 @@ menu:
     identifier: healthcare-analytics-made-simple
     parent: libreria
     weight: 1
-categories: [ "Library" ]
+tags: [ "Books", "Python", "ML" ]
 ---
 
 {{< alert type="info" >}}

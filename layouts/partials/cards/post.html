@@ -8,7 +8,7 @@
         <h3 class="card-title">{{ .Title }}</h3>
         <p class="card-text post-summary">{{ .Description }}</p>
         <div class="card-labels">
-            <span>{{ index .Params.categories 0 }}</span>
+            <span>{{ .Parent.Params.Title }}</span>
         </div>
       </div>
       <div class="card-footer">
