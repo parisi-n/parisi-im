@@ -3,9 +3,10 @@
     {{ if .enabled }}
         <!-- Google Analytics -->
         {{ with .google }}
+            <!-- Global Site Tag (gtag.js) - Google Analytics -->
             {{ $privacyConfig:= dict (slice "Site" "Config" "Privacy" "GoogleAnalytics") $.Site.Config.Privacy.GoogleAnalytics }}
             {{ $analyticsConfig := dict (slice "Site" "GoogleAnalytics") .id }}
-            {{ template "_internal/google_analytics_async.html" (merge $privacyConfig $analyticsConfig) }}
+            {{ template "_internal/google_analytics.html" (merge $privacyConfig $analyticsConfig) }}
         {{ end }}
 
         <!-- Counter.dev -->
