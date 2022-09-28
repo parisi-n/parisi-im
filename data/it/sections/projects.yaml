@@ -18,6 +18,8 @@ buttons:
   filter: "Professional"
 - name: Apps
   filter: "Apps"
+- name: Personale
+  filter: "personal"
 
 # your projects
 projects:
