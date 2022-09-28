@@ -49,3 +49,9 @@ other = "Messaggio inoltrato con successo!"
 
 [contact_form_success_body]
 other = "Grazie per il messaggio. Ti risponderò quanto prima!"
+
+[descrizione]
+other = "Descrizione del Progetto"
+
+[website]
+other = "Vai al Sito del Progetto"

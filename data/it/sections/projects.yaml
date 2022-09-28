@@ -50,3 +50,11 @@ projects:
   tags: ["Apps"]
   modalDescription : "*ECG Guide Handbook* è sicuramente la più nota e scaricata delle app Android/BlackBerry OS sviluppate; nel campo medico tra le altre app troviamo anche *ECG ExerciseBook, Medical Assistant, HistoBook, HistoBook*. Puoi dare uno sguardo agli screenshots allegati per comprendere l'orientamento delle varie app."
   modalImage : [ screenshots/apps_eb_1.png, screenshots/apps_eb_2.png, screenshots/apps_ecg_guide_1.png, screenshots/apps_ecg_guide_2.png, screenshots/apps_hb_1.png, screenshots/apps_hb_2.png, screenshots/apps_hs_1.png, screenshots/apps_ma.png ]
+  
+- name: Blog fotografico personale
+  image: /projects/nparisi.png
+  summary: "Blog personale fotografico e di narrazione di viaggio."
+  url: "https://nparisi.com"
+  tags: ["Personal"]
+  modalDescription : "Racconti di viaggio accompagnati da numerose foto (un'altra delle mie passioni) con un taglio narrativo e di story-telling, in cui cerco di intrecciare viaggio, narrativa, fotografia e storia."
+  modalImage : [ screenshots/nparisi_screen_1.png, screenshots/nparisi_screen_2.png, screenshots/nparisi_screen_3.png, screenshots/nparisi_pc.jpg ]
