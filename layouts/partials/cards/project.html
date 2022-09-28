@@ -15,11 +15,11 @@
                     <p>{{ .summary | markdownify }}</p>
                     
                     {{ if .modalDescription }}
-                        <a href="#portfolio-modal" data-toggle="modal" class="link-1" data-target="#{{ replaceRE "(\\s)" "" .name }}"><i class="fa fa-magic"></i></a>
+                        <a href="#portfolio-modal" data-toggle="modal" class="link-1" data-target="#{{ replaceRE "(\\s)" "" .name }}" title="Description"><i class="fa fa-magic"></i></a>
                     {{ end }}
                     
                     {{ if .url }}
-                        <a href="{{ .url }}" class="link-2"><i class="fa fa-link"></i></a>
+                        <a href="{{ .url }}" class="link-2" title="Website"><i class="fa fa-link"></i></a>
                     {{else}}
                         <i class="fa fa-link link-2" style="opacity: 0.1"></i>
                     {{ end }}
