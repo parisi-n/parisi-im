@@ -72,6 +72,7 @@ Road-map previsto per lo sviluppo:
 *   possibilità di firma digitale con registrazione blockchain della sessione di lavoro
 *   integrazione multi-utente (ideale per medici che lavorano a turni negli stessi ambulatori)
 
+## Video di presentazione
 Attualemente è offerto __gratuitamente in versione Beta__ — accessibile al sito [ricettatore.cloud](https://ricettatore.cloud) — la cui registrazione è per il momento __tramite invito__.
 
 {{<video src="ilricettatore_presentazione.mp4" title="Video presentazione" align="center" >}}
