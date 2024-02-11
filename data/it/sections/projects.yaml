@@ -23,6 +23,21 @@ buttons:
 
 # your projects
 projects:
+- name: Il Ricettatore
+  image: /projects/ilricettatore.svg
+  url: "https://ricettatore.cloud"
+  summary: "Gestionale per la Medicina Generale web-based per la rapida prescrizione di farmaci negli Ambulatori Provvisori e Temporanei di Medicina Generale"
+  tags: ["Professional"]
+  modalDescription : "Gestionale web-based per la prescrizione di farmaci, esami strumentali, laboratoristici e consulenze su ricetta rossa, accessibile da qualunque computer dotato di connessione ad internet e stampante collegata."
+  modalImage : [ screenshots/ricettatore1.png, screenshots/ricettatore2.png, screenshots/ricettatore3.png, screenshots/ricettatore4.png, screenshots/ricettatore5.png ]
+
+- name: Analytics for Department of Emergency
+  image: /projects/ade.svg
+  summary: "Interfaccia _multi-level_ e _multi-entry_ per la gestione e standardizzazione dei dati EMR. Offre statistiche, proiezioni, predizioni."
+  tags: ["Professional"]
+  modalDescription : "Nasce come maschera d'inserimento dati per gli studenti del Pronto Soccorso. Rapida, intuitiva, funzionale, permette una più agile raccolta dei dati all'interno del nostro dipartimento. Basato su Python come _back-end_ - coniuga CSS (W3C) e jQuery lato _front-end_."
+  modalImage : [ screenshots/ade_1.png, screenshots/ade_3.jpg, screenshots/ade_4.jpg, screenshots/ade_ee_parser_detail.gif ]
+  
 - name: Diario Pressorio nel Cloud
   image: /projects/pression_cloud.svg
   url: "https://journ.cloud"
@@ -38,13 +53,6 @@ projects:
   tags: ["inCloud"]
   modalDescription : "Diario del Peso è l'app gemella di Diario Pressorio. Disponibile sia come app Android sia come interfaccia web, su cui sono presenti statistiche avanzate e tutti i dettagli inseriti dall'app. Mediante funzione di Share è possibile inviare un link al proprio medico/nutrizionista che in questo modo può avere accesso diretto alla piattaforma, per verificare (esempio) l'andamento della dieta."
   modalImage : [ screenshots/wj_1.png, screenshots/wj_2.png, screenshots/wj_3.png ]
-  
-- name: Analytics for Department of Emergency
-  image: /projects/ade.svg
-  summary: "Interfaccia _multi-level_ e _multi-entry_ per la gestione e standardizzazione dei dati EMR. Offre statistiche, proiezioni, predizioni."
-  tags: ["Professional"]
-  modalDescription : "Nasce come maschera d'inserimento dati per gli studenti del Pronto Soccorso. Rapida, intuitiva, funzionale, permette una più agile raccolta dei dati all'interno del nostro dipartimento. Basato su Python come _back-end_ - coniuga CSS (W3C) e jQuery lato _front-end_."
-  modalImage : [ screenshots/ade_1.png, screenshots/ade_3.jpg, screenshots/ade_4.jpg, screenshots/ade_ee_parser_detail.gif ]
   
 - name: Android-BlackBerry Apps
   image: /projects/android_blackberry_apps.svg
