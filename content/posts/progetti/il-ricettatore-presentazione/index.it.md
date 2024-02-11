@@ -19,6 +19,7 @@ La carenza dei Medici di Famiglia (Medici di Medicina Generale, MMG) - correlato
 Per garantire, nei limiti del possibile, un’assistenza sanitaria anche se basica, sono numerose le Aziende Territoriali che stanno aprendo, nelle ore diurne, degli _ambulatori straordinari di Continuità Assistenziale_ chiamati, in base alla localizzazione regionale, anche _ASCOT_.
 Il compito del medico incaricato del servizio è essenzialmente quello di garantire l'approvvigionamento farmaceutico all’utenza rimasta senza Medico di Medicina Generale.Per farlo, il lavoro consiste nella trascrizione dei farmaci nel __Ricettario Regionale__ fornito per l’incarico ed emettere una __ricetta rossa__.
 Il lavoro di trascrizione spesso può essere lungo, impegnativo, ricco in errori (esenzioni, note, codici regionali sono solo alcuni degli errori in cui si può incorrere).
+
 __Ma soprattutto faticoso__.
 
 ## L'idea
