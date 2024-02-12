@@ -1,11 +1,11 @@
 ---
 title: "Il Ricettatore: un nuovo modo di scrivere le ricette"
 date: 2024-02-11
-description: Libro che si colloca a pieno titolo nel percorso formativo del modello della figura ibrida medico-data analitica.
+description: Web-app per medici per la stampa rapida di ricette SSN ("ricette rosse")
 image: ilricettatore_header.png
 menu:
   sidebar:
-    name: Il Ricettatore - Presentazione
+    name: Il Ricettatore — Presentazione
     identifier: il-ricettatore-presentazione
     parent: projects
     weight: 1
@@ -14,7 +14,7 @@ tags: [ "Progetti", "Python", "Medicina" ]
 
 ## Background
 
-La carenza dei Medici di Famiglia (Medici di Medicina Generale, MMG) - correlato allo scarso appeal, all’elevatissimo carico di lavoro richiesto, alle spese necessarie per l’ambulatorio, alla mancanza di diritti in termini di ferie e malattia, ma soprattutto al non adeguamento salariale già da svariati anni  -  è un problema sempre più concreto.
+La carenza dei Medici di Famiglia (Medici di Medicina Generale, MMG) — correlato allo scarso appeal, all’elevatissimo carico di lavoro richiesto, alle spese necessarie per l’ambulatorio, alla mancanza di diritti in termini di ferie e malattia, ma soprattutto al non adeguamento salariale già da svariati anni  —  è un problema sempre più concreto.
 
 Per garantire, nei limiti del possibile, un’assistenza sanitaria anche se basica, sono numerose le Aziende Territoriali che stanno aprendo, nelle ore diurne, degli _ambulatori straordinari di Continuità Assistenziale_ chiamati, in base alla localizzazione regionale, anche _ASCOT_.
 Il compito del medico incaricato del servizio è essenzialmente quello di garantire l'approvvigionamento farmaceutico all’utenza rimasta senza Medico di Medicina Generale. Per farlo, il lavoro consiste nella trascrizione dei farmaci nel __Ricettario Regionale__ fornito per l’incarico ed emettere una __ricetta rossa__.
