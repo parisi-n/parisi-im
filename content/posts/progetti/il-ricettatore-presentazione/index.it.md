@@ -17,8 +17,8 @@ tags: [ "Progetti", "Python", "Medicina" ]
 La carenza dei Medici di Famiglia (Medici di Medicina Generale, MMG) - correlato allo scarso appeal, all’elevatissimo carico di lavoro richiesto, alle spese necessarie per l’ambulatorio, alla mancanza di diritti in termini di ferie e malattia, ma soprattutto al non adeguamento salariale già da svariati anni  -  è un problema sempre più concreto.
 
 Per garantire, nei limiti del possibile, un’assistenza sanitaria anche se basica, sono numerose le Aziende Territoriali che stanno aprendo, nelle ore diurne, degli _ambulatori straordinari di Continuità Assistenziale_ chiamati, in base alla localizzazione regionale, anche _ASCOT_.
-Il compito del medico incaricato del servizio è essenzialmente quello di garantire l'approvvigionamento farmaceutico all’utenza rimasta senza Medico di Medicina Generale.Per farlo, il lavoro consiste nella trascrizione dei farmaci nel __Ricettario Regionale__ fornito per l’incarico ed emettere una __ricetta rossa__.
-Il lavoro di trascrizione spesso può essere lungo, impegnativo, ricco in errori (esenzioni, note, codici regionali sono solo alcuni degli errori in cui si può incorrere).
+Il compito del medico incaricato del servizio è essenzialmente quello di garantire l'approvvigionamento farmaceutico all’utenza rimasta senza Medico di Medicina Generale. Per farlo, il lavoro consiste nella trascrizione dei farmaci nel __Ricettario Regionale__ fornito per l’incarico ed emettere una __ricetta rossa__.
+Il lavoro di trascrizione spesso può essere lungo, impegnativo, ricco in errori: esenzioni, note, codici regionali sono solo alcuni degli errori in cui si può incorrere.
 
 __Ma soprattutto faticoso__.
 
@@ -75,4 +75,4 @@ Road-map previsto per lo sviluppo:
 ## Video di presentazione
 Attualemente è offerto __gratuitamente in versione Beta__ — accessibile al sito [ricettatore.cloud](https://ricettatore.cloud) — la cui registrazione è per il momento __tramite invito__.
 
-{{<video src="ilricettatore_presentazione.mp4" title="Video presentazione" align="center" >}}
+{{< youtube id="Dmx54BrfqU4" title="Video presentazione" >}}
