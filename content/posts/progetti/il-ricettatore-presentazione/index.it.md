@@ -75,4 +75,4 @@ Road-map previsto per lo sviluppo:
 ## Video di presentazione
 Attualemente è offerto __gratuitamente in versione Beta__ — accessibile al sito [ricettatore.cloud](https://ricettatore.cloud) — la cui registrazione è per il momento __tramite invito__.
 
-{{< youtube id="Dmx54BrfqU4" title="Video presentazione" >}}
+{{< youtube id="eVzqqwiTNlY" title="Video presentazione" >}}
