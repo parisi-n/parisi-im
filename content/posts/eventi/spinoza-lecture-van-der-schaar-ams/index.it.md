@@ -1,11 +1,11 @@
 ---
 title: "Medical AI: Promise to Practice - Amsterdam UMC"
-date: 2025-03-06
-description: Medical AI: Promise to Practice all'University Medical Center di Amsterdam
+date: 2025-03-13
+description: "Medical AI: Promise to Practice. Spinoza lecture all'University Medical Center di Amsterdam tenuta dalla Prof.ssa Mihaela van der Schaar"
 image: amsterdam_umc.jpg
 menu:
   sidebar:
-    name: Spinoza Lecture - Lezione di Mihaela van der Schaar - Marzo 2025
+    name: Spinoza Lecture - Lezione di Mihaela van der Schaar - Amsterdam, Marzo 2025
     identifier: spinoza-lecture-mihaela-vds
     parent: events
     weight: 1
