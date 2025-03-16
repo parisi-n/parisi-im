@@ -1,84 +1,63 @@
 ---
-title: "Towards better health & care: potenzialità dell'Intelligenza Artificiale"
-date: 2022-06-04
-description: Recap del meet-up/evento tenutosi ad Amsterdam il 24 Maggio, in cui si è fatto il punto della situazione sullo stato dell'arte dell'uso nella medicina dell'AI.
-image: vrje_university.jpg
+title: "Medical AI: Promise to Practice - Amsterdam UMC"
+date: 2025-03-06
+description: Medical AI: Promise to Practice all'University Medical Center di Amsterdam
+image: amsterdam_umc.jpg
 menu:
   sidebar:
-    name: Towards better health & care - Amsterdam
-    identifier: towards-better-healthcare-ai
+    name: Spinoza Lecture - Lezione di Mihaela van der Schaar - Marzo 2025
+    identifier: spinoza-lecture-mihaela-vds
     parent: events
     weight: 1
 tags: ["Eventi", "AI"]
 ---
 
-Lo scorso 24 Maggio si è tenuto ad Amsterdam - presso la [Vrje University](https://vrje.nl) - l'evento *Towards better health&care: the potential of AI* organizzato dall'attivissima comunità AMDS (trovate il gruppo ufficiale [qui](https://www.meetup.com/it-IT/amsterdam-medical-data-science/)).
+Al momento dela stesura di queste righe la lezione magistrale tenuta dalla Prof.ssa Mihaela van der Schaar si è appena conclusa.
 
-Ma prima di entrare nel vivo dell'evento, facciamo un passo indietro.
+Ancora una volta Amsterdam diventa la capitale europea per chi cerca ogni giorno di unire la pratica clinica, quella vera — al letto dell'ammalato — con le nuove tecnologie che dovrebbero, almeno sulla carta, migliorare l'approccio clinico, creare una medicina personalizzata e per questo ottimizzata per le specifiche esigenze di ognuno. Checchè se ne dica, infatti, ogni paziente è unico nelle sue caratteristiche, e le sue necessità — e la sua prognosi — vanno al di là del tempismo e dell'appropriatezza con cui una terapia viene iniziata.
 
-## Cos'è AMDS
+Teatro dell'evento ancora una volta la Vrije University (nella prima giornata) ed il futuristico ospedale [Amsterdam UMC](https://g.co/kgs/PcVa2oD) (University Medical Center), negli spazi offerti dall'Anestesiologia e Terapia Intensiva per quel che riguarda il programma della seconda giornata.
 
-{{< img src="amds.jpeg" align="center" title="Logo Amsterdam Medical Data Science" >}}
+{{< img src="amsterdam_umc_hall.jpg" align="center" >}}
 
-AMDS, accronimo per [Amsterdam Medical Data Science](https://www.amsterdammedicaldatascience.nl/) è un gruppo (la cui community ufficiale si trova su _meetup.com_) che consta quasi 2000 medici (e _data scientists_) entusiasti che lavorano nella sanità: gli incontri sono il luogo in cui _medici incontrano data scientists ed i data scientists_ per discutere di un unico, comune argomento: *i dati* ed il *loro uso nella medicina del domani*.
+Ma andiamo con ordine.
 
-Capita infatti che queste due categorie raramente abbiano a che fare, e spesso difficilmente si capiscano. Anzi: spesso si parla lingue completamente diverse.
+## Chi è Mihaela van der Schaar
 
-Il gruppo è amministrato da *Dr. Paul Elbers* (Amsterdam UMC - _Medico Intensivista_) e da *Dr. Mark Hoogendoorn* (VU University Amsterdam - _Matematico_) - con il supporto finanziario offerto sia dall'_Amsterdam UMC_  e dalla _VU University Amsterdam_.
+Docente all'Università di Cambridge, ha all'attivo oltre 600 papers (al momento della sua visita). Gestisce un gruppo di ricerca composto da 20 persona — tra data scientis, fisici e matematici — che attualmente è focalizzato sull'applicazione della teoria alla base del Machine Learning — oggi sublimata e portata all'ennesima portenza sotto il nome di Intelligenza Artificiale — applicata alla **Medicina**.
 
-L'ambizione del gruppo è abbastanza elevata: ci si propone infatti di potenziare l'offerta sanitaria, predisporre una medicina più a misura di paziente e che lo metta al centro, piuttosto che l'applicazione passiva di protocolli standardizzati.
-I dati in medicina sono una grande ricchezza; la quantità con cui vengono giornalmente generati però non va di pari passo alla qualità con cui vengono raccolti e ciò si riflette su uno scarso uso che invece ne viene fatto.
-
-Nei meetup, solitamente a cadenza mensile, si discute di _medical data science_ - ovvero di progetti in corso, sviluppi, iniziative, opportunità che hanno a che fare con l'ambiente medico e dei dati.
-
-Il tutto accompagnato da *pizza*.
-
-## L'evento
-
-{{< alert type="warning" >}}
-Il paziente per l'intero periodo della manifestazione è stato chiamato **cliente** e - solo raramente - utente - da parte del personale non-medico.
-Ma anche durante gli speech tenuti dal personale medico la persona finale raramente è stata chiamata _paziente_.
-{{< /alert >}}
-
-L'evento in questione (*completamente in inglese*) però non è stato un semplice meetup di alcune ore, ma un evento in piena regola, organizzato nella mattina e nella sera:  ci sono state sessioni di _workshop_, di _postering_ su progetti in fase di sviluppo, ed interventi riflessivi circa potenziali futuri sviluppi (a carattere più teoretico-divulgativo piuttosto hce scientifico).
-
-{{< img src="projects.jpg" align="center" title="Un progetto proposto durante l'evento" >}}
-
-Ma quel che mi ha sorpreso più di ogni cosa non sono stati i temi; *sono stati gli speakers*.
-
-Per la prima volta ho sentito *medici, colleghi* parlare di argomenti che *reputavo di nicchia* e per cui mi ero sempre informato attraverso *manuali di matematici o informatici*.
-Sentirli parlare con un *linguaggio comune* su algoritmi o protocolli si intelligenza artificiale in fase di sviluppo o definizione - con termini prettamente tecnici come _random forest, logistic regression, support-vector machine_ è stato per me quasi toccante; emozionante.
-
-{{< img src="networking.jpg" align="center" title="Momento di social working" >}}
-
-## Il programma
-
-Quel che è stato il programma [lo potete trovare qui](https://www.ai-health.nl/towards-better-health-care-the-potential-of-ai/).
+Le due giornate sono si sono svolte di fatto sotto la sua supervisione, in una sorta di **grande brainstorming** in cui i dottorandi e post-doc hanno parlato dei loro progetti di ricerca — e lei con grande umiltà ha fornito il suo contributo, in uno scambio tra pari.
 
 * * *
 
-Estremamente interessante il _keynote_ di _Sandjai Bhulai_ intitolato *Artificial Intelligence in healthcare … it matters!* che ha mostrato come un appropriato algoritmo di intelligenza artificiale *basato sulla posizione più comune degli eventi che richiedono intervento di mezzo 118* possa ridurre drasticamente i tempi di intervento _on site_ delle ambulanze anche in caso di _iperafflusso_ in determinate giornate - il tutto facendole fisicamente spostare di sede in base agli eventi per cui le restanti vengono attivate nel territorio di pertinenza.
+Prof.ssa van der Schaar è attiva su vari frangenti sul lato medico, ed il suoi progetti su cui è attiva sono valutabili sul sito [vanderschaar-lab.com](https://www.vanderschaar-lab.com).
 
-Non solo: il numero di spostamento richiesto per ottenere un _time-on-site_ ragionevole (che altrimenti sarebbe stato notevolmente maggiore nelle aree rimaste scoperte dopo che l'ambulanza di pertinenza veniva attivata) era decisamente compatibile con una qualità di lavoro appropriata per gli operatori.
+Lei stessa promuove una chiacchierata _online_ mensile, al fine di supportare ed incentivare il confronto di idee tra pari, ed invita chiunque possa essere interessato ad unirsi al [salotto virtuale](https://www.vanderschaar-lab.com/engagement-sessions/inspiration-exchange/). E' chiaro come il potenziale sia tanto, ma non è ancora chiarissimo verso che direzione svilupparlo.
 
-*Geniale!*
+## Tanti progetti, poco disruptive
 
-{{< img src="speech_ambu.jpg" align="center" title="Speech su AI e coordinazione delle ambulanze nel territorio"  >}}
+I progetti portati avanti nella mattinata erano tutti particolarmente interessanti. Alcuni davvero promettenti ed utili, seppur orientati ad un'utenza medica di nicchia (Rianimatori, per l'appunto).
 
-* * *
+{{< img src="abstract_1.jpg" align="center" >}}
 
-Altro speech interessante quello intitolato *Applying AI to address the complex health care problem of falls in older persons* e tenuto da _Noman Dormosch & Bob van de Loo_ per cui veniva dimostrato come semplicemente permettendo al paziente di scegliere *in fase di primo soccorso* l'Ospedale cui desiderava essere trasportato per comodità oppure per standard di cure sulla base del tempo stimato per "evadere" la sua problematica assistenziale (nello speech: sospetta frattura di femore) rendeva *la scelta di ospedali meno blasonati più accettabile rispetto al fatto che fossero direttamente trasportati presso quell'ospedale senza possibilità di scelta*.
+Tra i tanti, due ho trovato particolarmente curiosi: nel primo venivano poste le basi per predirre un possibile deterioramente clinico sulla base del monitoraggio cruento e continuo dei parametri vitali nei pazienti post-operati; il secondo invece come la ventilazione meccanica invasiva (IMV) potesse essere variata e _customizzata_ nel tempo, in base alla modificazione intrinseca dei restanti parametri e del metabolismo stesso del paziente — influenzato a sua volta dal suo stato metabolico corrispondente alla fase specifica del suo decorso (che fosse post-operatorio o in corso di sepsi).
 
-* * *
+{{< img src="abstract_2.jpg" align="center" >}}
 
-Nello speech di *Translating AI into Radiological practice* di _Henk Marquering_  (Radiologo) racconta i vari _inverni_ dell'Intelligenza Artificiale che lui personalmente ha vissuto nel suo campo di lavoro, *lo studio di immagini radiologiche*.
-Difficilmente l'_AI_ riuscirà a sostituire il Radiologo come figura; sicuramente però sarà incommensurabile l'aiuto che potrà dare.
-Anche perchè - in caso di _diagnosi mancata_, considerata la delicatezza di certe scelte, potrà mai l'_AI_ essere incriminata di aver sbagliato?
+Progetti interessanti, sicuramente dal grande impatto clinico per il futuro, una volta omologate ed estese eventuali tecnologie.
 
-{{< img src="speech_radio.jpg" align="center" title="Speech sull'uso dell'AI nella Radiologia" >}}
+{{< img src="abstract_3.jpg" align="center" >}}
+
+Tutto bello, tutto utile. Ma quanto?
+
+{{< img src="abstract_4.jpg" align="center" >}}
+
+## Altri progetti
+
+Il **van der Schaar Lab** ha una serie di [progetti open source](https://github.com/vanderschaarlab) realizzati dal suo team di ricerca, messi a disposizione gratuitamente a quella che è, a tutti gli effetti, la sua community.
 
 ## Conclusioni
 
-Consiglio caldamente a chiunque fosse interessato (colleghi italiani, lanciatemi un urlo: andiamo tutti insieme il prossimo evento :grin:) di partecipare a questi momenti di crescita professionale, che rafforzano la consapevolezza di come seppur un argomento di nicchia come _l'analisi dei dati_ possa risultare vincente e potenziante in un profilo ibrido-medico piuttosto che rimanere di pertinenza esclusiva informatica.
+Sul finale un po' filosofico, un po' sognante.
 
-Mi piacerebbe concludere questo post con una frase da me molto sentita, che rieccheggia spesso ed ancor di più in questi contesti: **"profilo a I versus profilo a T"**.
+Sicuramente coinvolgente. Vedere tanti colleghi così attivi, lanciati, dinamici, sognanti in un futuro plasmato secondo la propria opera — è stato un momento per ragionare su quel che si è ma soprattutto su quel che si vorrebbe diventare.
