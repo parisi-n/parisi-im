@@ -32,7 +32,7 @@
     {{ $customMenus = (index site.Data site.Language.Lang).site.customMenus }}
   {{ end }}
 
-  {{ $copyrightNotice := now.Format "2006" | printf "© %s Copyright"}}
+  {{ $copyrightNotice := now.Format "2006" | printf "© %s"}}
   {{ if (index site.Data site.Language.Lang).site }}
     {{ $siteConfig := (index site.Data site.Language.Lang).site }}
     {{ if $siteConfig.copyright }}
@@ -140,7 +140,7 @@
     <hr />
     <div class="container text-center copyright">
         <span class="author">{{ i18n "dr_prefix" }}{{ $author.name }}{{ i18n "dr_postfix" }}</span><br/>
-        <!-- <span class="year">{{ $copyrightNotice | markdownify }}</span> -->
+        <span class="year">{{ $copyrightNotice | markdownify }}</span>
     </div>
     {{ end }}
   </footer>
