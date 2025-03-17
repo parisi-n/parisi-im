@@ -24,13 +24,13 @@ Ma andiamo con ordine.
 
 ## Chi è Mihaela van der Schaar
 
-Docente all'Università di Cambridge, ha all'attivo oltre 600 papers (al momento della sua visita). Gestisce un gruppo di ricerca composto da 20 persona — tra data scientis, fisici e matematici — che attualmente è focalizzato sull'applicazione della teoria alla base del Machine Learning — oggi sublimata e portata all'ennesima portenza sotto il nome di Intelligenza Artificiale — applicata alla **Medicina**.
+Docente all'Università di Cambridge, ha all'attivo oltre 600 papers (al momento della sua visita). Gestisce un gruppo di ricerca composto da 20 persona — tra data scientis, fisici e matematici — che attualmente è focalizzato sull'applicazione della teoria alla base del Machine Learning — oggi sublimata e portata all'ennesima potenza sotto il nome di Intelligenza Artificiale — applicata alla **Medicina**.
 
-Le due giornate sono si sono svolte di fatto sotto la sua supervisione, in una sorta di **grande brainstorming** in cui i dottorandi e post-doc hanno parlato dei loro progetti di ricerca — e lei con grande umiltà ha fornito il suo contributo, in uno scambio tra pari.
+Le due giornate si sono svolte di fatto sotto la sua supervisione, in una sorta di **grande brainstorming** in cui i dottorandi e post-doc hanno parlato dei loro progetti di ricerca — e lei con grande umiltà ha fornito il suo contributo, in uno scambio tra pari.
 
 * * *
 
-Prof.ssa van der Schaar è attiva su vari frangenti sul lato medico, ed il suoi progetti su cui è attiva sono valutabili sul sito [vanderschaar-lab.com](https://www.vanderschaar-lab.com).
+Prof.ssa van der Schaar è attiva su vari frangenti sul lato medico, ed i suoi progetti su cui è attiva sono valutabili sul sito [vanderschaar-lab.com](https://www.vanderschaar-lab.com).
 
 Lei stessa promuove una chiacchierata _online_ mensile, al fine di supportare ed incentivare il confronto di idee tra pari, ed invita chiunque possa essere interessato ad unirsi al [salotto virtuale](https://www.vanderschaar-lab.com/engagement-sessions/inspiration-exchange/). E' chiaro come il potenziale sia tanto, ma non è ancora chiarissimo verso che direzione svilupparlo.
 
@@ -40,7 +40,7 @@ I progetti portati avanti nella mattinata erano tutti particolarmente interessan
 
 {{< img src="abstract_1.jpg" align="center" >}}
 
-Tra i tanti, due ho trovato particolarmente curiosi: nel primo venivano poste le basi per predirre un possibile deterioramente clinico sulla base del monitoraggio cruento e continuo dei parametri vitali nei pazienti post-operati; il secondo invece come la ventilazione meccanica invasiva (IMV) potesse essere variata e _customizzata_ nel tempo, in base alla modificazione intrinseca dei restanti parametri e del metabolismo stesso del paziente — influenzato a sua volta dal suo stato metabolico corrispondente alla fase specifica del suo decorso (che fosse post-operatorio o in corso di sepsi).
+Tra i tanti, due ho trovato particolarmente curiosi: nel primo venivano poste le basi per predire un possibile deterioramento clinico sulla base del monitoraggio cruento e continuo dei parametri vitali nei pazienti post-operati; il secondo invece come la ventilazione meccanica invasiva (IMV) potesse essere variata e _customizzata_ nel tempo, in base alla modificazione intrinseca dei restanti parametri e del metabolismo stesso del paziente — influenzato a sua volta dal suo stato metabolico corrispondente alla fase specifica del suo decorso (che fosse post-operatorio o in corso di sepsi).
 
 {{< img src="abstract_2.jpg" align="center" >}}
 
@@ -48,7 +48,7 @@ Progetti interessanti, sicuramente dal grande impatto clinico per il futuro, una
 
 {{< img src="abstract_3.jpg" align="center" >}}
 
-Tutto bello, tutto utile. Ma quanto?
+Tutto bello, tutto utile. Ma quanto lo è davvero?
 
 {{< img src="abstract_4.jpg" align="center" >}}
 
