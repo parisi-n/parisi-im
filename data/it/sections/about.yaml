@@ -23,7 +23,9 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Curioso, quick-learner, cerco giornalmente un modo per unire le mie due grandi passioni: la medicina e la programmazione. Amante delle lingue, curioso su tutto quel che riguarda le nuove tecnologie - blockchain, intelligenza artificiale, data analysis.'
+summary: 'Curioso, quick-learner, cerco giornalmente un modo per unire le mie due grandi passioni: *medicina* e *programmazione*.
+  Amante delle lingue e di tutto ciò che riguarda le nuove tecnologie. 
+  Appassionato di viaggi in luoghi lontani, scrittore e fotografo, racconto di storie in giro per il mondo sul [mio blog](https://nparisi.com).'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

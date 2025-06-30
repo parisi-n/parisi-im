@@ -11,6 +11,26 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: ASST Ospedale Maggiore di Lodi
+    location: Lodi
+    flag: italy
+    # company overview
+    overview: Dirigente Medico LP - Pronto Soccorso, OBI e Medicina d'Urgenza
+  positions:
+  - designation: Medico
+    start: Ottobre 2024
+
+- company:
+    name: Fondazione IRCSS San Matteo
+    location: Pavia
+    flag: italy
+    # company overview
+    overview: Dirigente Medico LP - Pronto Soccorso e Medicina d'Urgenza
+  positions:
+  - designation: Medico
+    start: Aprile 2024
+    
+- company:
     name: Università degli Studi di Pavia
     url: "http://www-med.unipv.it/scuole-di-specializzazione/scuole-di-specializzazione/"
     location: Pavia
@@ -20,6 +40,7 @@ experiences:
   positions:
   - designation: Medico
     start: Gennaio 2021
+    end: Gennaio 2026
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
 

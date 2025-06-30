@@ -25,7 +25,7 @@ buttons:
 projects:
 - name: Il Ricettatore
   image: /projects/ilricettatore.svg
-  url: "https://ricettatore.cloud"
+  url: "https://www.youtube.com/watch?v=eVzqqwiTNlY"
   summary: "Gestionale per la Medicina Generale web-based per la rapida prescrizione di farmaci negli Ambulatori Provvisori e Temporanei di Medicina Generale"
   tags: ["Professional"]
   modalDescription : "Gestionale web-based per la prescrizione di farmaci, esami strumentali, laboratoristici e consulenze su ricetta rossa, accessibile da qualunque computer dotato di connessione ad internet e stampante collegata."
@@ -40,7 +40,7 @@ projects:
   
 - name: Diario Pressorio nel Cloud
   image: /projects/pression_cloud.svg
-  url: "https://journ.cloud"
+#  url: "https://journ.cloud"
   summary: "Accessibile ovunque, dal paziente e dal medico, offre un diario in cui inserire farmaci, pressioni. Produce statistiche avanzate."
   tags: ["inCloud"]
   modalDescription : "Disponibile sia come Android App - che garantisce al paziente un'interfaccia semplice per l'inserimento e delle statistiche base sull'andamento pressorio - sia come interfaccia web con un report dettagliato esportabile del diario pressorio. La funzione web può essere resa accessibile al medico comodamente dall'app Android mediante creazione di un link temporaneo per l'accesso diretto."
@@ -48,7 +48,7 @@ projects:
 
 - name: Diario del Peso nel Cloud
   image: /projects/weight_cloud.svg
-  url: "https://journ.cloud"
+#  url: "https://journ.cloud"
   summary: "Accessibile ovunque, dal paziente e dal medico, offre un diario in cui inserire il peso, circonferenze, mood della dieta ed alimenti."
   tags: ["inCloud"]
   modalDescription : "Diario del Peso è l'app gemella di Diario Pressorio. Disponibile sia come app Android sia come interfaccia web, su cui sono presenti statistiche avanzate e tutti i dettagli inseriti dall'app. Mediante funzione di Share è possibile inviare un link al proprio medico/nutrizionista che in questo modo può avere accesso diretto alla piattaforma, per verificare (esempio) l'andamento della dieta."

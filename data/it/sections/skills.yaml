@@ -13,8 +13,12 @@ section:
 skills:
 - name: Emergenza-Urgenza
   logo: "/skills/emergency-room.svg"
-  summary: "Possiedo le principali certificazioni per lavorare nell'Emergenza-Urgenza - sia in contesto ospedaliero che extra-ospedaliero: ALS, APHTC, PALS, maxi-emergenze. Attualmente in _formazione specialistica_."
+  summary: "Possiedo le principali certificazioni per lavorare nell'Emergenza-Urgenza - sia in contesto ospedaliero che extra-ospedaliero: ALS, ATLS, PALS, maxi-emergenze."
   #url: "https://example.io/"
+
+- name: Medicina Estetica
+  logo: "/skills/medestetica.svg"
+  summary: "Possiedo le principali certificazioni per lavorare nell'Emergenza-Urgenza - sia in contesto ospedaliero che extra-ospedaliero: ALS, ATLS, PALS, maxi-emergenze."
 
 - name: Coding
   logo: "/skills/coding.svg"
@@ -24,10 +28,10 @@ skills:
   logo: "/skills/database.svg"
   summary: "Son capace di gestire, operare, manutenere database SQL di medie dimensioni, con particolare focus su _mySQL_."
   
-- name: Blockchain
-  logo: "/skills/blockchain.svg"
-  summary: "Appassionato di blockchain ed applicazioni reali in campo medico e finanziario. Inguaribile _IOTA enthusiast."
+#- name: Blockchain
+#  logo: "/skills/blockchain.svg"
+#  summary: "Appassionato di blockchain ed applicazioni reali in campo medico e finanziario. Inguaribile _IOTA enthusiast."
   
 - name: Lingue straniere
   logo: "/skills/foreign-language.svg"
-  summary: "Madrelingua italiano. Riesco a comunicare nell'ambiente lavorativo in inglese. Possiedo basi di russo e tedesco."
+  summary: "Madrelingua italiano. Riesco a comunicare nell'ambiente lavorativo in inglese. Possiedo basi di russo."

@@ -21,9 +21,24 @@ buttons:
 
 # your projects
 projects:
+- name: Il Ricettatore
+  image: /projects/ilricettatore.svg
+  url: "https://www.youtube.com/watch?v=eVzqqwiTNlY"
+  summary: "Web-based managing app to print and deliver physically prescription to your patient for Outpatient General Medicine."
+  tags: ["Professional"]
+  modalDescription : "It allows to print out exams, prescriptions, medications and trace a medical diary"
+  modalImage : [ screenshots/ricettatore1.png, screenshots/ricettatore2.png, screenshots/ricettatore3.png, screenshots/ricettatore4.png, screenshots/ricettatore5.png ]
+
+- name: Analytics for Department of Emergency
+  image: /projects/ade.svg
+  summary: "_Multi-level_ and _multi-entry_ interface for managing and EMR data in our Emergency Department. Output projections, charts and many other data."
+  tags: ["Professional"]
+  modalDescription : "Allows the insertion of data and its analysis."
+  modalImage : [ screenshots/ade_1.png, screenshots/ade_3.jpg, screenshots/ade_4.jpg, screenshots/ade_ee_parser_detail.gif ]
+
 - name: Pressure Journal in Cloud
   image: /projects/pression_cloud.svg
-  url: "https://journ.cloud"
+#  url: "https://journ.cloud"
   summary: "Accessible from everywhere, from the patient as well as the doctor, it provides a diary to insert medications, pressure values. It outputs advanced statistics for MD or patient."
   tags: ["inCloud"]
   modalDescription : "Available as Android App only - it provides a simple interface to data input and outputs advanced and different statistics for the patient - as well as a web interface for the doctor to provide him with a detailed and wide report. The web interface is easily provided to the doctor by the patient sharing a app-generated link."
@@ -31,7 +46,7 @@ projects:
 
 - name: Weight Journal in Cloud
   image: /projects/weight_cloud.svg
-  url: "https://journ.cloud"
+#  url: "https://journ.cloud"
   summary: "Accessible from everywhere, from the patient as well as the doctor, it provides a diary to insert weights, moods during the diet, measures, foods."
   tags: ["inCloud"]
   modalDescription : "Weight Journal is the twin app of Pressure Journal. It is available as Android App for the patient and nested web interface with Pressure Journal. Through the Share function a link can be shared with the MD or your nutritionist to assess the mood and how the diet is goin on."

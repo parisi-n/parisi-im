@@ -9,6 +9,26 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: ASST Ospedale Maggiore of Lodi
+    location: Lodi
+    flag: italy
+    # company overview
+    overview: Consultant - Emergency Department
+  positions:
+  - designation: Medical Doctor
+    start: October 2024
+
+- company:
+    name: Fondazione IRCSS San Matteo
+    location: Pavia
+    flag: italy
+    # company overview
+    overview: Consultant - Emergency Department
+  positions:
+  - designation: Medico
+    start: April 2024
+    
+- company:
     name: University of Pavia
     url: "http://www-med.unipv.it/scuole-di-specializzazione/scuole-di-specializzazione/"
     location: Pavia
@@ -18,6 +38,7 @@ experiences:
   positions:
   - designation: Medical Doctor
     start: January 2021
+    end: January 2026
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
 
