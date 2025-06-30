@@ -16,14 +16,14 @@ skills:
   summary: "Possiedo le principali certificazioni per lavorare nell'Emergenza-Urgenza - sia in contesto ospedaliero che extra-ospedaliero: ALS, ATLS, PALS, maxi-emergenze."
   #url: "https://example.io/"
 
+- name: Ecografia
+  logo: "/skills/us.svg"
+  summary: "Principalmente eseguo POCUS per lavoro. Possiedo tuttavia le skills e certificazioni per poter poter eseguire ecografia addome e cuore standardizzate."
+  
 - name: Medicina Estetica
   logo: "/skills/medestetica.svg"
   summary: "Certificazioni Valet e competenze nel campo della Medicina Estetica mi permettono di praticare con dimestichezza le principali tecniche iniettabili su viso e corpo con buoni risultati estetici."
   
-- name: Ecografia
-  logo: "/skills/us.svg"
-  summary: "Principalmente eseguo POCUS per lavoro. Possiedo tuttavia le skills e certificazioni per poter poter eseguire ecografia addome e cuore standardizzate."
-
 - name: Coding
   logo: "/skills/coding.svg"
   summary: "_PHP_ prima - oggi _Python_ - come linguaggio principale. Capace di scrivere, testare e mantenere applicativi scalabili su server VPS. So destreggiarmi con _JAVA, JS, AJAX, CSS_ ed ovviamente _HTML_."
