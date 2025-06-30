@@ -19,6 +19,10 @@ skills:
 - name: Medicina Estetica
   logo: "/skills/medestetica.svg"
   summary: "Competenze maturate nel campo della Medicina Estetica mi permettono di praticare con dimestichezza le principali tecniche iniettabili su viso e corpo con buoni risultati estetici."
+  
+- name: Ecografia
+  logo: "/skills/us.svg"
+  summary: "Principalmente eseguo POCUS per lavoro. Possiedo tuttavia le skills e certificazioni per poter poter eseguire ecografia addome e cuore standardizzate."
 
 - name: Coding
   logo: "/skills/coding.svg"

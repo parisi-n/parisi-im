@@ -16,6 +16,10 @@ skills:
 - name: Aesthetic Medicine
   logo: "/skills/medestetica.svg"
   summary: "Confident with most injectable tecniques in the aesthetic medicine field for face and body."
+  
+- name: Ultrasound
+  logo: "/skills/us.svg"
+  summary: "Mainly POCUS skills, I am also confidend performing standardized abdominal ultrasound or cardiac ultrasound."
 
 - name: Coding
   logo: "/skills/coding.svg"
