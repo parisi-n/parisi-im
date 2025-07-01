@@ -32,14 +32,8 @@
     {{ $customMenus = (index site.Data site.Language.Lang).site.customMenus }}
   {{ end }}
 
-  {{ $copyrightNotice := now.Format "2006" | printf "© %s"}}
-  {{ if (index site.Data site.Language.Lang).site }}
-    {{ $siteConfig := (index site.Data site.Language.Lang).site }}
-    {{ if $siteConfig.copyright }}
-      {{ $copyrightNotice = $siteConfig.copyright }}
-    {{ end }}
-  {{ end }}
-
+  {{ $copyrightNotice := now.Format "2006" | printf "© 2022 - %s"}}
+  
 
   {{ $disclaimer := "" }}
   {{ $siteConfig := (index site.Data site.Language.Lang).site }}
