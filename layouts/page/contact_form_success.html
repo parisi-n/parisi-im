@@ -1,50 +1,68 @@
-{{ define "header" }}
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
-/>
-<link rel="stylesheet" href="{{ "/css/layouts/single.css" | relURL }}"/>
-<link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL }}">
-<!--================= custom style overrides =========================-->
-<link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
 
-{{ end }}
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    {{ $siteDescription := .Site.Params.description }}
+    {{ if (index .Site.Data .Site.Language.Lang).site }}
+      {{ $siteConfig := (index .Site.Data .Site.Language.Lang).site }}
+      {{ if $siteConfig.description }}
+        {{ $siteDescription = $siteConfig.description }}
+      {{ end }}
+    {{ end }}
+    <title>{{ .Site.Title }} | {{ $siteDescription }}</title>
+    <meta name="description" content="{{ $siteDescription }}" />
+    
+    <!-- import common headers -->
+    {{- partial "header.html" . -}}
+    {{- partial "opengraph.html" . -}}
 
-{{ define "navbar" }}
-    {{ partial "navigators/navbar-2.html" . }}
-{{ end }}
+    <!-- import index page specific headers -->
+    <link rel="stylesheet" href="{{ "/css/sections/home.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/about.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/skills.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/experiences.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/education.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/projects.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/recent-posts.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/achievements.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/accomplishments.css" | relURL }}"/>
 
+    <!--================= custom style overrides =========================-->
+    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
+    
+    <!--================= add analytics if enabled =========================-->
+    {{- partial "analytics.html" . -}}
+  </head>
+  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
-{{ define "content" }}
-<section class="content-section" id="content-section" style="margin: 0 auto;">
-  <div class="content">
-    <div class="container p-0 read-area">
-
-      <!--Content Start-->
-      <div class="page-content">
-
-        <!-- Form start -->
-        <div id="contact_form">
-            <div class="title">
-              <h2 style="color: #009900">{{ i18n "contact_form_success_title" }}</h2>
-            </div>
-            <p style="text-align: center">
-                {{ i18n "contact_form_success_body" }}
-            </p>
+    <!--- NAVBAR ------------------------->
+    {{- partial "navigators/navbar.html" . -}}
+    
+    <!-- Form start -->
+    <div id="contact_form">
+        <div class="title">
+          <h2 style="color: #009900; text-align: center;">{{ i18n "contact_form_success_title" }}</h2>
         </div>
-      </div>
+        <p style="text-align: center">
+            {{ i18n "contact_form_success_body" }}
+        </p>
     </div>
-  </div>
-</section>
-{{ end }}
 
+    <!--- ADD FOOTER ----------------------->
+    {{ $footerTemplate:= site.Params.footer.template | default "footer.html" }}
+    {{- partial $footerTemplate . -}}
 
-{{ define "scripts" }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-<script src="{{ "/js/single.js" | relURL }}"></script>
-<script>
-  hljs.initHighlightingOnLoad();
-</script>
+    <!--- ADD COMMON SCRIPTS --------------->
+    {{ partial "scripts.html" . }}
 
-{{ end }}
+    <!--- ADD INDEX PAGE SPECIFIC SCRIPTS -->
+    <script src="{{ "/js/itype.min.js" | relURL }}"></script>
+    <script src="{{ "/js/github-button.js" | relURL }}"></script>
+    <script src="{{ "/js/home.js" | relURL }}"></script>
+    <script src="{{ "/js/jquery.filterizr.min.js" | relURL }}"></script>
+
+    <!------ ADD SUPPORT LINKS -------->
+    {{- partial "misc/support.html" . -}}
+
+  </body>
+</html>
