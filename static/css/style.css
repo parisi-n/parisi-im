@@ -91,7 +91,7 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Mon
 .navbar-collapse.show .navbar-nav .active, .navbar-collapse.show .navbar-nav a:hover { color: #fff; }
 .navbar-collapse.show .dropdown a:hover { color: var( --primary-color ) }
 .navbar-collapse.show li a, .navbar-collapse.collapsing li a { font-family: 'Oswald' }
-.navbar-collapse.show, .navbar-collapse.collapsing { padding-left: 0px; }
+.navbar-collapse.show, .navbar-collapse.collapsing { padding-left: 0px; margin-top: 1rem; }
 .top-navbar .dropdown-menu.show { margin: 0px 0.1rem; padding-left: 0.5rem }
 
 /* POST */
