@@ -45,7 +45,17 @@ experiences:
     # end: Dec 2020
 
 - company:
-    name: Full Stack Developer
+    name: Family Medicine
+    overview: Family Doctor and Continuity of Care Doctor with fixed-term contract
+    location: Sardinia Region
+    flag: italy
+  positions:
+  - designation: Medico
+    start: Febbraio 2018
+    end: Gennaio 2021
+
+- company:
+    name:
     overview: Full Stack Developer
     flag: italy
   positions:
@@ -74,12 +84,3 @@ experiences:
   positions:
   - designation: Blogger
     start: October 2018
-    
-- company:
-    name: Vilnius University
-    url: "https://vu.lt"
-    flag: lithuania
-  positions:
-  - designation: Erasmus+ Exchage Student
-    start: September 2015
-    end: June 2016

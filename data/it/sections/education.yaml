@@ -1,0 +1,52 @@
+# section information
+section:
+  name: Istruzione
+  id: education
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+education:
+- company:
+    flag: italy
+    overview: Diploma di Specializzazione in Medicina Emergenza Urgenza
+  positions:
+  - designation: Università degli Studi di Pavia
+    start: Gennaio 2021
+    end: Gennaio 2026
+
+- company:
+    flag: italy
+    overview: Frequenza fuori-rete presso reparto Medicina Emergenza Urgenza
+  positions:
+  - designation: Università degli Studi di Sassari
+    start: Luglio 2024
+    end: Agosto 2024
+    
+- company:
+    flag: italy
+    overview: Master di Medicina Emergenza Urgenza
+  positions:
+  - designation: Regione Sardegna
+    start: Gennaio 2020
+    end: Luglio 2021
+
+- company:
+    name: Vilnius University
+    url: "https://vu.lt"
+    flag: lithuania
+  positions:
+  - designation: Erasmus+ Exchage Student
+    start: Settembre 2015
+    end: Giugno 2016
+
+- company:
+    flag: italy
+    overview: Laurea in Medicina e Chirurgia
+  positions:
+  - designation: Università degli Studi di Cagliari
+    start: Ottobre 2009
+    end: Luglio 2017

@@ -1,0 +1,52 @@
+# section information
+section:
+  name: Istruzione
+  id: education
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+education:
+- company:
+    flag: italy
+    overview: Resident Doctor at Emergency Medicine
+  positions:
+  - designation: University of Pavia
+    start: January 2021
+    end: January 2026
+
+- company:
+    flag: italy
+    overview: Fellowship at Emergency Medicine Ward Department
+  positions:
+  - designation: Università degli Studi di Sassari
+    start: July 2024
+    end: August 2024
+    
+- company:
+    flag: italy
+    overview: Master degree in Emergency Medicine
+  positions:
+  - designation: Sardinia Region
+    start: January 2020
+    end: July 2021
+
+- company:
+    name: Vilnius University
+    url: "https://vu.lt"
+    flag: lithuania
+  positions:
+  - designation: Erasmus+ Exchage Student
+    start: September 2015
+    end: June 2016
+
+- company:
+    flag: italy
+    overview: Medicine and Surgery degree
+  positions:
+  - designation: University of Cagliari
+    start: October 2009
+    end: July 2017
