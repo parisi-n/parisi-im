@@ -55,3 +55,6 @@ other = "Descrizione del Progetto"
 
 [website]
 other = "Vai al Sito del Progetto"
+
+[responsibilities]
+other = "Ambito:"

@@ -26,6 +26,7 @@ var projectCards;
 
     // =========== Typing Carousel ================
     // get data from hidden ul and set as typing data
+    /*
     if (document.getElementById('typing-carousel-data') != undefined) {
       var ul = document.getElementById('typing-carousel-data').children;
 
@@ -42,6 +43,7 @@ var projectCards;
         });
       }
     }
+    */
 
     // ============== Fix Timelines Horizontal Lines =========
     var hLines = document.getElementsByClassName("horizontal-line");

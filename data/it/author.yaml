@@ -1,11 +1,12 @@
 # some information about you
-name: "Nicola Parisi"
-nickname: "Nicola Parisi"
+name: "Nicola"
+surname: "Parisi"
+nickname: "NP"
 image: "images/np_logo.png"
 
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Ciao, sono"
-subtitle: "Unisco Medicina, Dati e Programmazione."
+#greeting: "Ciao, sono"
+subtitle: "Medicina. Programmazione. Innovazione."
 
 # give your contact information. they will be used in the footer
 contactInfo:

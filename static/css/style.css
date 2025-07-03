@@ -7,12 +7,13 @@ and open the template in the editor.
     Created on : Jun 6, 2022, 11:23:06 PM
     Author     : npari
 */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Montserrat&display=swap');
 :root {
     --text-color: #6b6b6b;
     --text-light: #f1f2f4;
     --text-color-dark: #1c2d41;
     --primary-color: #ff4343; /*#ff432e*/
+    --primary-color-blend: #ff6666; /*#ff432e*/
     --primary-color-dark: #99281c;
     --background-color: #f1f2f4;
     --background-color-dark: #f0f1f4;
@@ -21,7 +22,7 @@ and open the template in the editor.
 
 body {
     color: var(--text-color-dark) !important;
-    font-family: "Roboto"; 
+    font-family: "Montserrat"; 
     letter-spacing: 0.5px;
 }
 .bg-dimmed { background-color: var( --background-color-dark ) !important; }
@@ -32,8 +33,9 @@ h1, h2, h3 { font-family: 'Oswald'; letter-spacing: 1px; }
 h1 { font-weight: 600; color: var( --primary-color ); letter-spacing: 1px; font-size: clamp(40px, 8vw, 45px); margin-bottom: 2rem; }
 h2 { margin-bottom: 2rem; }
 h3 { color: var( --primary-color ) }
-p, .post-content .alert, ul li { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Roboto'; letter-spacing: 0.5px; color: var( --text-color-dark ); }
-a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Roboto'; letter-spacing: 0.5px; }
+h5 { font-size: 18px; font-weight: 600; }
+p, .post-content .alert, ul li { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Montserrat'; letter-spacing: 0.5px; color: var( --text-color-dark ); }
+a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Montserrat'; letter-spacing: 0.5px; }
 
 /**
  * SCROLLBAR
@@ -51,33 +53,38 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Rob
 @media only screen and (max-width: 576px) { .home .content { top: -80% } }
 .home .content { top: -75% }
 .navbar-brand img { height: 40px !important; width: auto; }
-#homePageBackgroundImageDivStyled { background-image: none !important; background-color: var( --secondary-background-color ) !important; }
+#homePageBackgroundImageDivStyled { background-image: none !important; background-color: var( --background-color-dark ) !important; }
 .sidebar-holder { top: 3.1rem !important; }
 .sidebar { height: 95vh; } /* Elimina lo scroll verticale a meno di numerosi posts */
+.navbar-dark .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(107, 107, 107, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 .navbar-toggler:focus, .navbar-toggler:hover { outline: none !important; }
 .navbar-light .navbar-toggler-icon:hover, .navbar-light .navbar-toggler-icon:focus, .navbar-dark .navbar-toggler-icon:hover, .navbar-dark .navbar-toggler-icon:focus { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 67, 67, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; }
 
 #primary-font { line-height: 2rem; text-align: left; }
 #primary-font .greetings { font-size: clamp(14px,5vw,16px); opacity: 0.6; }
-#primary-font .name { font-size: clamp(40px, 8vw, 80px); color: var(--primary-color) !important; margin-left: -4px  }
-#primary-font .greeting-subtitle { color: inherit; font-size: clamp(40px, 8vw, 30px); opacity: 0.5; }
+#primary-font .full_name { display: inline-flex; font-variant: all-small-caps;  }
+#primary-font .full_name .name { color: var(--text-color) !important; font-size: clamp(5rem, 6.5rem, 8.5rem); }
+#primary-font .full_name .surname { color: var(--primary-color) !important; font-size: clamp(5rem, 6.5rem, 8.5rem); }
+#primary-font .greeting-subtitle { color: inherit; font-variant: all-small-caps; font-size: clamp(2rem, 2.5rem, 3.5rem); opacity: 0.5; color: var(--text-color) }
 #primary-font h1, h2, h3 { color: inherit; }
-#primary-font .typing-carousel { font-size: 23pt; color: #f9fafc !important; margin-top: 1rem; opacity: 0.5; }
+#primary-font .typing-carousel { font-size: clamp(2rem, 2.5rem, 3.5rem); color: var(--text-color) !important; font-variant: all-small-caps; margin-top: 1rem; opacity: 0.5; }
 .rounded-circle { border-radius: 20% !important; }
 
 /* NAV BAR */
 .initial-navbar .navbar-nav .active, .initial-navbar li a:hover:not(.dropdown-toggle):not( .dropdown-item )
 {
-    background: var( --primary-color );
+    background: var( --primary-color-blend );
     color: #fff;
     border-bottom: 0px;
+    transition: 0.45s ease
 }
 .final-navbar .navbar-nav .active, .final-navbar li a:hover:not(.dropdown-toggle):not( .dropdown-item ) {
     color: #fff;
     transition: all 0.3s ease-out;
-    background: var( --primary-color );
+    background: var( --primary-color-blend );
     border-bottom: 0px;
 }
+.initial-navbar li a { color: var( --text-color ); }
 .final-navbar li a:hover { color: var(--primary-color); background: transparent; border-bottom: 0px; }
 .final-navbar li a { color: var( --text-color ); border-bottom: 0px; }
 .top-navbar .dropdown-menu a:hover { background: inherit; color: var( --primary-color ) }
@@ -169,7 +176,7 @@ h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left;
 #primary-skills .card-head { text-align: center; border: 1px solid rgba(0,0,0,.125); border-radius: 0.25rem; }
 #primary-skills .card-head img { border-radius: 0.1rem; padding: 2rem; margin-bottom: 2.5rem; height: 124px; object-fit: cover; }
 #primary-skills .card-head h3 { color: var( --text-color-dark ); text-align: center; }
-#primary-skills .card-title { margin-bottom: 2.5rem; }
+#primary-skills .card-title { margin-bottom: 2.5rem; font-family: "Oswald" }
 #primary-skills .card-text { margin-top: 1.5rem; }
 #primary-skills .skills-section .card .card-head { background-color: transparent; }
 #primary-skills .card:hover, .card:focus { border: 0px; }
@@ -181,6 +188,7 @@ h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left;
 .flag { text-align: center }
 @media only screen and (max-width: 992px) { .flag { display: none; } }
 .position { opacity: 0.5; font-style: italic; font-size: initial; }
+.experience-entry-description { color: var(--text-color); }
 
 /* HOME - FOOTER */
 .footer { background-color: var( --secondary-background-color ) }
@@ -229,7 +237,7 @@ h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left;
     letter-spacing: 1px;
     padding: 0 5%;
     opacity: 0.8;
-    font-family: "Roboto"
+    font-family: "Montserrat"
 }
 
 .project-description .link-1 {
@@ -252,7 +260,7 @@ h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left;
 .carousel-control-next-icon { background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FF4343' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E" ) }
 
 /* POST */
-.toc .nav-link { font-family: 'Roboto'; letter-spacing: 1px; margin-bottom: 0.7rem; }
+.toc .nav-link { font-family: 'Montserrat'; letter-spacing: 1px; margin-bottom: 0.7rem; }
 .toc-holder h5 { font-family: "Oswald" }
 #scroll-to-top, #scroll-to-top i { color: var(--text-light); background-color: var(--primary-color); bottom: 2rem; right: 2.5rem; }
 #scroll-to-top:hover, #scroll-to-top:hover > i, #scroll-to-top i:hover { background-color: var(--primary-color-dark); }
@@ -268,7 +276,7 @@ h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left;
 .card-labels span { border-radius: 5px; background-color: var( --text-light ); color: var( --text-color ); padding: 8px; font-size: 12pt; }
 
 /* SIDEBAR */
-.tree li a { font-family: 'Roboto'; letter-spacing: 0.5px; }
+.tree li a { font-family: 'Montserrat'; letter-spacing: 0.5px; }
 .tree li a.active { color: var(--primary-color); }
 .tree li a:hover { color: var(--primary-color); font-weight: 900; }
 
