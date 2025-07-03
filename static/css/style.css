@@ -12,8 +12,7 @@ and open the template in the editor.
     --text-color: #6b6b6b;
     --text-light: #f1f2f4;
     --text-color-dark: #1c2d41;
-    --primary-color: #ff4343; /*#ff432e*/
-    --primary-color-blend: #ff6666; /*#ff432e*/
+    --primary-color: #ff6666; /*#ff432e*/
     --primary-color-dark: #99281c;
     --background-color: #f1f2f4;
     --background-color-dark: #f0f1f4;
@@ -73,7 +72,7 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Mon
 /* NAV BAR */
 .initial-navbar .navbar-nav .active, .initial-navbar li a:hover:not(.dropdown-toggle):not( .dropdown-item )
 {
-    background: var( --primary-color-blend );
+    background: var( --primary-color );
     color: #fff;
     border-bottom: 0px;
     transition: 0.45s ease
@@ -81,7 +80,7 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Mon
 .final-navbar .navbar-nav .active, .final-navbar li a:hover:not(.dropdown-toggle):not( .dropdown-item ) {
     color: #fff;
     transition: all 0.3s ease-out;
-    background: var( --primary-color-blend );
+    background: var( --primary-color );
     border-bottom: 0px;
 }
 .initial-navbar li a { color: var( --text-color ); }
