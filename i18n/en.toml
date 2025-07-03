@@ -39,7 +39,7 @@ other = "Your message here..."
 other = "Submit"
 
 [contact_form_success_title]
-other = "Message delivered successfully!"
+other = "Message delivered successfully"
 
 [contact_form_success_body]
 other = "Thank you for you message. I'll be back to you as soon as I can!"

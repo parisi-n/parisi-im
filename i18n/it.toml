@@ -45,7 +45,7 @@ other = "Inserisci qui il tuo messaggio"
 other = "Invio"
 
 [contact_form_success_title]
-other = "Messaggio inoltrato con successo!"
+other = "Messaggio inoltrato con successo"
 
 [contact_form_success_body]
 other = "Grazie per il messaggio. Ti risponderò quanto prima!"
