@@ -116,8 +116,8 @@ a.header-anchor:hover { opacity: 0.8; transition: 0.3s }
     display: block;
     font-size: 16px;
     line-height: 10px;
-    font-weight: 500;
-    padding: 25px 15px 30px;
+    font-weight: 600;
+    padding: 20px 10px 25px;
     overflow: hidden;
     border-top: 2px solid transparent;
     transition: all 0.3s ease-in-out;
