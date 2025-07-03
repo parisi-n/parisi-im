@@ -1,72 +1,85 @@
-{{ define "header" }}
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
-/>
-<link rel="stylesheet" href="{{ "/css/layouts/single.css" | relURL }}"/>
-<link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL }}">
-<!--================= custom style overrides =========================-->
-<link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
 
-{{ end }}
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    {{ $siteDescription := .Site.Params.description }}
+    {{ if (index .Site.Data .Site.Language.Lang).site }}
+      {{ $siteConfig := (index .Site.Data .Site.Language.Lang).site }}
+      {{ if $siteConfig.description }}
+        {{ $siteDescription = $siteConfig.description }}
+      {{ end }}
+    {{ end }}
+    <title>{{ .Site.Title }} | {{ $siteDescription }}</title>
+    <meta name="description" content="{{ $siteDescription }}" />
+    
+    <!-- import common headers -->
+    {{- partial "header.html" . -}}
+    {{- partial "opengraph.html" . -}}
 
-{{ define "navbar" }}
-    {{ partial "navigators/navbar-2.html" . }}
-{{ end }}
+    <!-- import index page specific headers -->
+    <link rel="stylesheet" href="{{ "/css/sections/home.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/about.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/skills.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/experiences.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/education.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/projects.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/recent-posts.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/achievements.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "/css/sections/accomplishments.css" | relURL }}"/>
 
+    <!--================= custom style overrides =========================-->
+    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
+    
+    <!--================= add analytics if enabled =========================-->
+    {{- partial "analytics.html" . -}}
+  </head>
+  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
-{{ define "content" }}
-<section class="content-section" id="content-section" style="margin: 0 auto;">
-  <div class="content">
-    <div class="container p-0 read-area">
+    <!--- NAVBAR ------------------------->
+    {{- partial "navigators/navbar.html" . -}}
 
-      <!--Content Start-->
-      <div class="page-content">
-
-        <!-- Form start -->
-        <div id="contact_form">
-            <div class="title">
-              <h1>{{ i18n "contact_me" }}</h1>
-            </div>
-
-            <form name="contact" method="POST" data-netlify="true" autocomplete="off" action="/contact/success" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
-              <div class="form-group">
-                <label for="inputNome">{{ i18n "contact_form_nome"}}</label>
-                <input type="text" name="Nome" class="form-control" id="inputNome" placeholder="{{ i18n "contact_form_nome_placeholder"}}" required>
-                <small id="emailHelp" class="form-text text-muted">{{ i18n "contact_form_not_disclosure"}}</small>
-              </div>
-              <div class="form-group">
-                <label for="inputEmail">{{ i18n "contact_form_email"}}</label>
-                    <input type="text" name="eMail" class="form-control" id="inputEmail" placeholder="{{ i18n "contact_form_email_placeholder"}}" required>
-              </div>
-              <div class="form-group">
-                <label for="inputMessaggio">{{ i18n "contact_form_messaggio"}}</label>
-                <textarea class="form-control" name="Messaggio" id="inputMessaggio" placeholder="{{ i18n "contact_form_messaggio_placeholder"}}" rows="5" required></textarea>
-              </div>
-              <div data-netlify-recaptcha="true"></div>
-              <div class="form-check" style="text-align: center; margin-top: 2.7rem;">
-                <input type="submit" class="btn btn-primary btn-outline-info" style="text-align: center;" value="{{ i18n "contact_form_invio"}}">
-              </div>
-            </form>
+    <!-- Form start -->
+    <div id="contact_form">
+        <div class="title">
+          <h1>{{ i18n "contact_me" }}</h1>
         </div>
-      </div>
+
+        <form name="contact" method="POST" data-netlify="true" autocomplete="off" action="/contact/success" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+          <div class="form-group">
+            <label for="inputNome">{{ i18n "contact_form_nome"}}</label>
+            <input type="text" name="Nome" class="form-control" id="inputNome" placeholder="{{ i18n "contact_form_nome_placeholder"}}" required>
+            <small id="emailHelp" class="form-text text-muted">{{ i18n "contact_form_not_disclosure"}}</small>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail">{{ i18n "contact_form_email"}}</label>
+                <input type="text" name="eMail" class="form-control" id="inputEmail" placeholder="{{ i18n "contact_form_email_placeholder"}}" required>
+          </div>
+          <div class="form-group">
+            <label for="inputMessaggio">{{ i18n "contact_form_messaggio"}}</label>
+            <textarea class="form-control" name="Messaggio" id="inputMessaggio" placeholder="{{ i18n "contact_form_messaggio_placeholder"}}" rows="5" required></textarea>
+          </div>
+          <div data-netlify-recaptcha="true"></div>
+          <div class="form-check" style="text-align: center; margin-top: 2.7rem;">
+            <input type="submit" class="btn btn-primary btn-outline-info" style="text-align: center;" value="{{ i18n "contact_form_invio"}}">
+          </div>
+        </form>
     </div>
-  </div>
-  <!--scroll back to top-->
-  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
-  {{ if .IsTranslated }}
-    {{ partial "navigators/floating-lang-selector.html" . }}
-  {{ end }}
-</section>
-{{ end }}
 
+    <!--- ADD FOOTER ----------------------->
+    {{ $footerTemplate:= site.Params.footer.template | default "footer.html" }}
+    {{- partial $footerTemplate . -}}
 
-{{ define "scripts" }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-<script src="{{ "/js/single.js" | relURL }}"></script>
-<script>
-  hljs.initHighlightingOnLoad();
-</script>
+    <!--- ADD COMMON SCRIPTS --------------->
+    {{ partial "scripts.html" . }}
 
-{{ end }}
+    <!--- ADD INDEX PAGE SPECIFIC SCRIPTS -->
+    <script src="{{ "/js/itype.min.js" | relURL }}"></script>
+    <script src="{{ "/js/github-button.js" | relURL }}"></script>
+    <script src="{{ "/js/home.js" | relURL }}"></script>
+    <script src="{{ "/js/jquery.filterizr.min.js" | relURL }}"></script>
+
+    <!------ ADD SUPPORT LINKS -------->
+    {{- partial "misc/support.html" . -}}
+
+  </body>
+</html>
