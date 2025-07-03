@@ -63,8 +63,8 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Mon
 #primary-font { line-height: 2rem; text-align: left; }
 #primary-font .greetings { font-size: clamp(14px,5vw,16px); opacity: 0.6; }
 #primary-font .full_name { display: inline-flex; font-variant: all-small-caps;  }
-#primary-font .full_name .name { color: var(--text-color) !important; font-size: clamp(5rem, 6.5rem, 8.5rem); }
-#primary-font .full_name .surname { color: var(--primary-color) !important; font-size: clamp(5rem, 6.5rem, 8.5rem); }
+#primary-font .full_name .name { color: var(--text-color) !important; font-size: clamp(5rem, 6rem, 8.5rem); }
+#primary-font .full_name .surname { color: var(--primary-color) !important; font-size: clamp(5rem, 6rem, 8.5rem); }
 #primary-font .greeting-subtitle { color: inherit; font-variant: all-small-caps; font-size: clamp(2rem, 2.5rem, 3.5rem); opacity: 0.5; color: var(--text-color) }
 #primary-font h1, h2, h3 { color: inherit; }
 #primary-font .typing-carousel { font-size: clamp(2rem, 2.5rem, 3.5rem); color: var(--text-color) !important; font-variant: all-small-caps; margin-top: 1rem; opacity: 0.5; }
