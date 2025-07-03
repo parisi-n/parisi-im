@@ -10,6 +10,7 @@ section:
 experiences:
 - company:
     name: ASST Ospedale Maggiore of Lodi
+    url: https://www.asst-lodi.it/
     location: Lodi
     flag: italy
     # company overview
@@ -21,6 +22,7 @@ experiences:
 - company:
     name: Fondazione IRCSS San Matteo
     location: Pavia
+    url: https://www.sanmatteo.org
     flag: italy
     # company overview
     overview: Consultant - Emergency Department
@@ -50,7 +52,7 @@ experiences:
   - designation: Developer
     start: February 2018
     responsibilities:
-    - nPSoftware // Android OS, Windows Phone, Blackberry OS
+    - nPSoftware for Android OS, Windows Phone, Blackberry OS
     - Journal in Cloud
     - Analytics for Department of Emergency
     

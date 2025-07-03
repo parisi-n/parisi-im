@@ -12,7 +12,7 @@ and open the template in the editor.
     --text-color: #6b6b6b;
     --text-light: #f1f2f4;
     --text-color-dark: #1c2d41;
-    --primary-color: #ff6666; /*#ff432e*/
+    --primary-color: #ff432e; /*#ff432e*/
     --primary-color-dark: #99281c;
     --background-color: #f1f2f4;
     --background-color-dark: #f0f1f4;
@@ -186,7 +186,7 @@ h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left;
 .flag img { width: 65px; border-radius: 10%; border: 1px solid #6b6b6b22 }
 .flag { text-align: center }
 @media only screen and (max-width: 992px) { .flag { display: none; } }
-.position { opacity: 0.5; font-style: italic; font-size: initial; }
+.position { opacity: 0.5; font-size: initial; }
 .experience-entry-description { color: var(--text-color); }
 
 /* HOME - FOOTER */
