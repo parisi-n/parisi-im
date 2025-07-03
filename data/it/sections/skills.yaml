@@ -26,11 +26,11 @@ skills:
   
 - name: Coding
   logo: "/skills/coding.svg"
-  summary: "_PHP_ prima - oggi _Python_ - come linguaggio principale. Capace di scrivere, testare e mantenere applicativi scalabili su server VPS. So destreggiarmi con _JAVA, JS, AJAX, CSS_ ed ovviamente _HTML_."
+  summary: "_PHP_ prima - oggi _Python_ - come linguaggio principale. Capace di scrivere, testare e mantenere applicativi scalabili su VPS. Ancora _JAVA, JS, AJAX, CSS_ ed ovviamente _HTML_."
 
 - name: Database
   logo: "/skills/database.svg"
-  summary: "Son capace di gestire, operare, manutenere database SQL di medie dimensioni, con particolare focus su _mySQL_."
+  summary: "Gestisco, interrogo, mantengo database SQL di medie dimensioni, con particolare focus su _mySQL_."
   
 #- name: Blockchain
 #  logo: "/skills/blockchain.svg"
@@ -38,4 +38,4 @@ skills:
   
 - name: Lingue straniere
   logo: "/skills/foreign-language.svg"
-  summary: "Madrelingua italiano. Riesco a comunicare nell'ambiente lavorativo in inglese. Possiedo basi di russo."
+  summary: "Madrelingua italiano. Riesco a comunicare nell'ambiente lavorativo in inglese. Possiedo competenze base lingua russa."
