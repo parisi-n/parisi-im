@@ -154,7 +154,7 @@ a.header-anchor:hover { opacity: 0.8; transition: 0.3s }
 
 .recent-posts-section .card .card-footer span { opacity: 0.6; font-size: 12pt; }
 
-h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left; }
+h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left; font-size: 2rem; }
 .card-text { color: var( --text-color ) }
 
 @media only screen and (max-width: 576px) {

@@ -12,6 +12,7 @@ section:
 experiences:
 - company:
     name: ASST Ospedale Maggiore di Lodi
+    url: https://www.asst-lodi.it/
     location: Lodi
     flag: italy
     # company overview
@@ -22,6 +23,7 @@ experiences:
 
 - company:
     name: Fondazione IRCSS San Matteo
+    url: https://www.sanmatteo.org
     location: Pavia
     flag: italy
     # company overview
