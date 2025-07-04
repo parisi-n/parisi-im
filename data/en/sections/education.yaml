@@ -3,7 +3,7 @@ section:
   name: Istruzione
   id: education
   enable: true
-  weight: 4
+  weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
@@ -54,6 +54,7 @@ education:
     name: Vilnius University
     url: "https://vu.lt"
     flag: lithuania
+    overview: Erasmus+ student
   positions:
   - designation: Erasmus+ Exchage Student
     start: September 2015

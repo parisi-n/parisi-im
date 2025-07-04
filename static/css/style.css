@@ -180,6 +180,12 @@ h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left;
 #primary-skills .skills-section .card .card-head { background-color: transparent; }
 #primary-skills .card:hover, .card:focus { border: 0px; }
 
+/* HOME - LANGUAGES */
+#languages .language-flag { padding: 1rem; width: 200px; text-align: center; align-items:center; justify-content:center;  }
+#languages .language-flag img { border-radius: 10%; border: 1px solid #6b6b6b22; }
+#languages .language-flag .container { text-align: center; font-family: "Montserrat"; }
+#languages .language-container { align-items:center; justify-content:center;  }
+
 /* HOME - EXPERIENCES */
 .circle { background-color: var( --primary-color ) }
 .timeline .horizontal-line .corner, .timeline .vertical-line::after, .timeline .horizontal-line hr { border-color: var( --primary-color ) }
@@ -187,7 +193,7 @@ h3.card-title { color: var(--primary-color); font-weight: 600; text-align: left;
 .flag { text-align: center }
 @media only screen and (max-width: 992px) { .flag { display: none; } }
 .position { opacity: 0.5; font-size: initial; }
-.experience-entry-description { color: var(--text-color); }
+.experience-entry-description { color: var(--text-color); text-align: left }
 
 /* HOME - FOOTER */
 .footer { background-color: var( --secondary-background-color ) }

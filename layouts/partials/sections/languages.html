@@ -1,0 +1,40 @@
+{{ $sectionID := replace (lower .section.name) " " "-"  }}
+{{ if .section.id }}
+  {{ $sectionID = .section.id }}
+{{ end }}
+
+{{ $author:= site.Data.author }}
+{{ if (index site.Data site.Language.Lang).author }}
+  {{ $author = (index site.Data site.Language.Lang).author }}
+{{ end }}
+
+<div class="container anchor p-lg-5 about-section" id="{{ $sectionID }}">
+    
+  {{ if not (.section.hideTitle) }}
+    <h1 class="text-center">
+        <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+  {{ else }}
+    <h1 class="text-center" style="display: none">
+        <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+  {{ end }}
+    
+  <div class="row align-self-center language-container">
+    <!-- summary -->
+    <!-- takes up full section width if no badges/soft skills are specified -->
+
+   {{ range $index,$lang:= .languages }}
+    <div class="language-flag">
+        {{ $flag:= resources.Get ( printf "flags_svg/%s.svg" $lang.flag.icon ) }}
+        
+        <div class="container">
+            <img src="{{ $flag }}" title="{{ .flag.overview | humanize }}" alt="{{ .flag.overview | humanize }}" />
+            <p>{{ .flag.level }}</p>
+        </div>
+    </div>
+   
+   {{ end }}
+    
+    
+
+  </div>
+</div>

@@ -1,0 +1,26 @@
+# section information
+section:
+  name: Lingue
+  id: languages
+  enable: true
+  weight: 3
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+languages:
+- flag:
+    icon: italy
+    overview: Italiano
+    level: Madrelingua
+    
+- flag:
+    icon: uk
+    overview: Inglese
+    level: Intermedio
+
+- flag:
+    icon: russia
+    overview: Russo
+    level: Base
