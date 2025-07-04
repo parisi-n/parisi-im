@@ -63,17 +63,7 @@ experiences:
     - nPSoftware for Android OS, Windows Phone, Blackberry OS
     - Journal in Cloud
     - Analytics for Department of Emergency
-    
-- company:
-    name: Miyazaki University Hospital
-    url: "https://www.miyazaki-u.ac.jp/english/"
-    overview: Tirocinante presso l'Ospedale Universitario di Miyazaki.
-    flag: japan
-  positions:
-  - designation: Medico
-    start: Agosto 2017
-    end: Ottobre 2017
-    
+   
 - company:
     name: nParisi.com
     url: "https://nparisi.com"

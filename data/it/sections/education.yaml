@@ -17,6 +17,14 @@ education:
   - designation: Università degli Studi di Pavia
     start: Gennaio 2021
     end: Gennaio 2026
+    
+- company:
+    flag: italy
+    overview: Corsi monografici su iniettivi nel campo della Medicina Estetica
+  positions:
+  - designation: Valet
+    start: Aprile 2025
+    end: Dicembre 2025
 
 - company:
     flag: italy
@@ -28,11 +36,29 @@ education:
     
 - company:
     flag: italy
-    overview: Master di Medicina Emergenza Urgenza
+    overview: Frequenza presso Ambulatori di Terapia del Dolore
+  positions:
+  - designation: ASST Ovest Milanese
+    start: Novembre 2023
+    end: Dicembre 2023
+    
+- company:
+    flag: italy
+    overview: Master in Medicina Emergenza Urgenza
   positions:
   - designation: Regione Sardegna
     start: Gennaio 2020
     end: Luglio 2021
+    
+- company:
+    name: Miyazaki University Hospital
+    url: "https://www.miyazaki-u.ac.jp/english/"
+    overview: Frequenza reparto Cardiologia - Cardiochirurgia presso Ospedale Universitario di Miyazaki.
+    flag: japan
+  positions:
+  - designation: Globus Placement
+    start: Agosto 2017
+    end: Ottobre 2017
 
 - company:
     name: Vilnius University

@@ -65,17 +65,7 @@ experiences:
     - nPSoftware for Android OS, Windows Phone, Blackberry OS
     - Journal in Cloud
     - Analytics for Department of Emergency
-    
-- company:
-    name: Miyazaki University Hospital
-    url: "https://www.miyazaki-u.ac.jp/english/"
-    overview: Trainee doctor at University Hospital of Miyazaki.
-    flag: japan
-  positions:
-  - designation: Medical Doctor
-    start: August 2017
-    end: October 2017
-    
+       
 - company:
     name: nParisi.com
     url: "https://nparisi.com"

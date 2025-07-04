@@ -17,6 +17,14 @@ education:
   - designation: University of Pavia
     start: January 2021
     end: January 2026
+    
+- company:
+    flag: italy
+    overview: Injectable monothematic courses in the field of Aesthetic Medicine
+  positions:
+  - designation: Valet
+    start: April 2025
+    end: Dicember 2025
 
 - company:
     flag: italy
@@ -25,6 +33,14 @@ education:
   - designation: Università degli Studi di Sassari
     start: July 2024
     end: August 2024
+    
+- company:
+    flag: italy
+    overview: Fellowship at Pain Management Therapy
+  positions:
+  - designation: ASST Ovest Milanese
+    start: November 2023
+    end: Dicember 2023
     
 - company:
     flag: italy
@@ -42,6 +58,16 @@ education:
   - designation: Erasmus+ Exchage Student
     start: September 2015
     end: June 2016
+    
+- company:
+    name: Miyazaki University Hospital
+    url: "https://www.miyazaki-u.ac.jp/english/"
+    overview: Trainee doctor at University Hospital of Miyazaki.
+    flag: japan
+  positions:
+  - designation: Globus Placement
+    start: August 2017
+    end: October 2017
 
 - company:
     flag: italy
