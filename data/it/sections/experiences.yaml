@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Esperienze
+  name: Esperienza
   id: experiences
   enable: true
   weight: 3
@@ -43,7 +43,7 @@ experiences:
     end: Gennaio 2026
     
 - company:
-    name: Medicina del Territorio
+    name: Medicina nel territorio
     overview: Medico di Medicina Generale con incarichi provvisori e Medico di Continuità Assistenziale con a tempo determinato
     location: Regione Sardegna
     flag: italy
