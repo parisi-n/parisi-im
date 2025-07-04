@@ -61,6 +61,14 @@ education:
     end: Ottobre 2017
 
 - company:
+    flag: italy
+    overview: Laurea in Medicina e Chirurgia
+  positions:
+  - designation: Università degli Studi di Cagliari
+    start: Ottobre 2009
+    end: Luglio 2017
+    
+- company:
     name: Vilnius University
     url: "https://vu.lt"
     flag: lithuania
@@ -68,11 +76,3 @@ education:
   - designation: Erasmus+ Exchage Student
     start: Settembre 2015
     end: Giugno 2016
-
-- company:
-    flag: italy
-    overview: Laurea in Medicina e Chirurgia
-  positions:
-  - designation: Università degli Studi di Cagliari
-    start: Ottobre 2009
-    end: Luglio 2017
