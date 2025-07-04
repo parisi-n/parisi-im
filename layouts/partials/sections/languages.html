@@ -25,7 +25,8 @@
    {{ range $index,$lang:= .languages }}
     <div class="language-flag">
         {{ $flag:= resources.Get ( printf "flags_svg/%s.svg" $lang.flag.icon ) }}
-        
+        {{ $flag = $flag.RelPermalink}}
+
         <div class="container">
             <img src="{{ $flag }}" title="{{ .flag.overview | humanize }}" alt="{{ .flag.overview | humanize }}" />
             <p>{{ .flag.level }}</p>
