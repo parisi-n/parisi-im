@@ -53,6 +53,10 @@ params:
     inverted: images/parisi_logo.png
     favicon: images/favicon.png
     
+  # NavBar
+  topNavbar:
+    maxVisibleSections: 8
+    
   features:
     analytics:
       enabled: true
