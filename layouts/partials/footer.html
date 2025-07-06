@@ -133,7 +133,7 @@
     {{ if $credentialsEnabled }}
     <hr />
     <div class="container text-center copyright">
-        <span class="author">{{ i18n "dr_prefix" }}{{ $author.name }}{{ i18n "dr_postfix" }}</span><br/>
+        <span class="author">{{ i18n "dr_prefix" }}{{ $author.name }} {{ $author.surname | }}{{ i18n "dr_postfix" }}</span><br/>
         <span class="year">{{ $copyrightNotice | markdownify }}</span>
     </div>
     {{ end }}
