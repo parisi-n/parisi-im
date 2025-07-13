@@ -50,9 +50,9 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Mon
 
 /* HOME */
 @media only screen and (max-width: 576px) { .home .content { top: -80% } }
-.home .content { top: -80% }
+.home .content { top: -85% }
 .home img { width: 220px; height: initial; }
-@media only screen and (max-width: 576px) { .home img { width: 240px; } }
+@media only screen and (max-width: 576px) { .home img { width: 240px; margin-top: -1rem; } }
 .navbar-brand img { height: 40px !important; width: auto; }
 #homePageBackgroundImageDivStyled { background-image: none !important; background-color: var( --background-color-dark ) !important; }
 .sidebar-holder { top: 3.1rem !important; }
@@ -68,7 +68,7 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Mon
 #primary-font .full_name .name { color: var(--text-color) !important; font-size: clamp(5rem, 6rem, 8.5rem); }
 #primary-font .full_name .surname { color: var(--primary-color) !important; font-size: clamp(5rem, 6rem, 8.5rem); }
 #primary-font .greeting-subtitle { color: inherit; font-variant: all-small-caps; font-size: clamp(2rem, 2.5rem, 3.5rem); opacity: 0.5; color: var(--text-color) }
-@media only screen and (max-width: 576px) { #primary-font .greeting-subtitle { margin-top: 6rem; } }
+@media only screen and (max-width: 576px) { #primary-font .greeting-subtitle { margin-top: 5rem; } }
 #primary-font h1, h2, h3 { color: inherit; }
 #primary-font .typing-carousel { font-size: clamp(2rem, 2.5rem, 3.5rem); color: var(--text-color) !important; font-variant: all-small-caps; margin-top: 1rem; opacity: 0.5; }
 .rounded-circle { border-radius: 20% !important; }
@@ -98,7 +98,7 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Mon
 .navbar-collapse.show, .navbar-collapse.collapsing { padding-left: 0px; margin-top: 1rem; }
 .top-navbar .dropdown-menu.show { margin: 0px 0.1rem; padding-left: 0.5rem }
 
-.arrow { color: var(--text-color); bottom: -2rem; }
+.arrow { color: var(--text-color); }
 
 /* POST */
 .hero-area { height: 500px; filter: saturate(0.5) }
