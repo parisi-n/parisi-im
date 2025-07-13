@@ -2,7 +2,8 @@
 name: "Nicola"
 surname: "Parisi"
 nickname: "NP"
-image: "images/np_logo.png"
+image: "images/qr_contact.svg"
+image_url: "https://qr.me-qr.com/f/parisi-im"
 
 # greeting message before your name. it will default to "Hi! I am" if not provided
 #greeting: "Ciao, sono"
