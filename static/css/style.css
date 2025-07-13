@@ -52,7 +52,7 @@ a, span { font-weight: 400; font-size: 18px; line-height: 2.1; font-family: 'Mon
 @media only screen and (max-width: 576px) { .home .content { top: -80% } }
 .home .content { top: -85% }
 .home img { width: 220px; height: initial; }
-@media only screen and (max-width: 576px) { .home img { width: 240px; margin-top: -1rem; } }
+@media only screen and (max-width: 576px) { .home img { width: 140px; margin-top: -1rem; } }
 .navbar-brand img { height: 40px !important; width: auto; }
 #homePageBackgroundImageDivStyled { background-image: none !important; background-color: var( --background-color-dark ) !important; }
 .sidebar-holder { top: 3.1rem !important; }
