@@ -25,7 +25,7 @@ buttons:
 projects:
 - name: Il Ricettatore
   image: /projects/ilricettatore.svg
-  url: "https://www.youtube.com/watch?v=eVzqqwiTNlY"
+#  url: "https://www.youtube.com/watch?v=eVzqqwiTNlY"
   summary: "Gestionale per la Medicina Generale web-based per la rapida prescrizione di farmaci negli Ambulatori Provvisori e Temporanei di Medicina Generale"
   tags: ["Professional"]
   modalDescription : "Gestionale web-based per la prescrizione di farmaci, esami strumentali, laboratoristici e consulenze su ricetta rossa, accessibile da qualunque computer dotato di connessione ad internet e stampante collegata."
