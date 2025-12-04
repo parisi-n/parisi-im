@@ -29,7 +29,7 @@ projects:
   summary: "Gestionale per la Medicina Generale web-based per la rapida prescrizione di farmaci negli Ambulatori Provvisori e Temporanei di Medicina Generale"
   tags: ["Professional"]
   modalDescription : "Gestionale web-based per la prescrizione di farmaci, esami strumentali, laboratoristici e consulenze su ricetta rossa, accessibile da qualunque computer dotato di connessione ad internet e stampante collegata."
-  modalImage : [ screenshots/ricettatore1.png, screenshots/ricettatore2.png, screenshots/ricettatore3.png, screenshots/ricettatore4.png, screenshots/ricettatore5.png ]
+  modalImage : [ yt:eVzqqwiTNlY, screenshots/ricettatore1.png, screenshots/ricettatore2.png, screenshots/ricettatore3.png, screenshots/ricettatore4.png, screenshots/ricettatore5.png ]
 
 - name: Analytics for Department of Emergency
   image: /projects/ade.svg
