@@ -8,7 +8,7 @@
         {{ $siteDescription = $siteConfig.description }}
       {{ end }}
     {{ end }}
-    <title>{{ .Page.Title }} | {{ .Site.Title }} | {{ $siteDescription }}</title>
+    <title>{{ .Page.Title }} | {{ .Site.Title }}: {{ $.Site.Params.Description }}</title>
     <!------ ADD COMMON HEADERS -------->
     {{- partial "header.html" . -}}
     {{- partial "opengraph.html" . -}}

@@ -16,7 +16,7 @@ languages:
   en:
     languageName: English
     weight: 2
-    description: "Personal blog % Portfolio"
+    description: "Personal blog & Portfolio"
 
 # Control TOC depth
 markup:
