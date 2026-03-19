@@ -1,5 +1,5 @@
 ---
-title: "Olimpiadi Invernali Milano Cortina 2026: considerazioni lavorative finali"
+title: "Olimpiadi Invernali Milano-Cortina 2026: considerazioni lavorative finali"
 date: 2026-03-14
 description: "Considerazioni finali a conclusione dei Giochi Olimpici e Paraolimpici invernali di Milano Cortina 2026: bilancio sui tre mesi di lavoro e sull'esperienza vissuta."
 image: cover.jpg
