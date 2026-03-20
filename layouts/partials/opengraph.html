@@ -31,7 +31,7 @@
 {{/* Open Graph data */}}
 <meta property="og:image" content="{{ $img }}" />
 <meta property="og:site_name" content="{{ .Site.Title | default "" }}: {{if not $.IsHome}}{{ $.Site.Params.Description | default "" | safeHTML }}{{else}}{{ $.Site.Params.slogan | default "" | safeHTML }}{{end}}" />
-<meta property="og:title" content="{{ .Title }} - {{if not $.IsHome}}{{ $.Site.Title | default "" | safeHTML }}{{else}}{{ $.Site.Params.slogan | default "" | safeHTML }}{{end}}" />
+<meta property="og:title" content="{{ .Title }} - {{if not $.IsHome}}{{ $.Site.Title | default "" | safeHTML }}: {{ $.Site.Params.Description | default "" | safeHTML }}{{else}}{{ $.Site.Params.slogan | default "" | safeHTML }}{{end}}" />
 <meta property="og:description" content="{{ $description }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:locale" content="it, en">
