@@ -83,4 +83,9 @@ Con molti ci si segue su Instagram, con altri in gruppi Whatsapp. Col tempo com'
 
 Rimarrà il ricordo di una grandissima esperienza, forse unica, professionale ed umana.
 
+E, come recitava la frase all'ingresso del nostro Policlinico - dopo questa esperienza e l'aver conosciuto persone davvero capaci di spronarti a dare sempre il meglio e ogni volta di più - sono sempre più convinto che _impossibile is just an opinion_.
+
+{{< img src="impossible_opinion.jpg" align="center" >}}
+
 Grazie a tutti.
+Per tutto.
