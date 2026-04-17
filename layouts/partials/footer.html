@@ -104,7 +104,7 @@
                     <span><i class="fab fa-whatsapp" aria-hidden="true"></i></span>&nbsp;<span>WhatsApp</span>
                 </a></li>
               {{ else if (eq $key "form") }}
-                <li><a href={{ printf "%s" $value }} target="_blank" rel="noopener">
+                <li><a href="/{{ printf "%s" $value }}" target="_blank" rel="noopener">
                   <span><i class="fas fa-envelope"></i></span>&nbsp;<span>{{ i18n "contact_form" }}</span>
                 </a></li>              
               {{ else if (eq $key "linkedin") }}
